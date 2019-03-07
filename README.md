@@ -1,2 +1,2 @@
-# furniture
-Furniture Web Store
+# fashion
+Fashion Web Store
