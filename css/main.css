@@ -3,8 +3,24 @@
 body {
   margin: 0; }
 
+select {
+  border: none;
+  background-color: transparent;
+  color: white; }
+
 ul {
   margin-top: 0; }
+
+li {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  text-decoration: none;
+  font-family: 'Raleway'; }
+
+li a {
+  text-transform: uppercase;
+  font-weight: bold; }
 
 h2 {
   height: 37px;
@@ -16,13 +32,30 @@ h2 {
   line-height: 0.5;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff; }
+  color: black; }
+
+h4 {
+  margin-top: 0; }
+
+footer {
+  background-color: black;
+  color: white;
+  height: 200px; }
 
 /* Web Fonts -------------------- */
-.BG {
+.top-section {
   width: 100%;
   height: 53px;
-  background-color: #2d2827; }
+  background-color: #2d2827;
+  color: white;
+  display: block;
+  margin: auto; }
+
+.options {
+  display: inline; }
+
+.socials {
+  display: inline; }
 
 .header {
   width: 100%;
@@ -70,7 +103,6 @@ h2 {
 
 .heading {
   height: 38px;
-  font-family: Dosis;
   font-size: 50px;
   font-weight: normal;
   font-style: normal;
@@ -99,7 +131,8 @@ h2 {
   border-radius: 20px;
   background-color: #a88d7b;
   display: block;
-  margin: auto; }
+  margin: auto;
+  border: none; }
 
 .down-arrow {
   width: 29px;
@@ -118,8 +151,7 @@ h2 {
   padding-top: 5px;
   background-color: #f0e9e9; }
 
-.feature,
-.collection {
+.main-head {
   height: 24px;
   font-family: SourceSansPro;
   font-size: 36px;
@@ -159,6 +191,65 @@ img {
   margin-top: 70px;
   padding-bottom: 60px; }
 
+.content3 {
+  height: 350px;
+  background-color: #666666; }
+
+.left-text {
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 50px; }
+
+.denim-looks {
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+.denim {
+  width: 656px;
+  height: 38px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-right: 0;
+  width: auto; }
+
+.view-more {
+  width: 150px;
+  height: 40px;
+  background-color: #a88d7b;
+  display: block;
+  margin: auto;
+  border: none; }
+
+.blog-article {
+  display: block;
+  margin: auto;
+  width: 900px;
+  height: 300px;
+  margin-top: 70px;
+  margin-bottom: 60px; }
+
+.insta-pics {
+  height: 30px; }
+
+.top-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "top-left top-mid top-right"; }
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -197,5 +288,29 @@ img {
 
 .new-product2 {
   grid-area: new-product2; }
+
+.content3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left-text right-text"; }
+
+.blog-article {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "blog-pic blog-content"; }
+
+footer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "row1 row2 row3 row4"; }
+
+.insta-pics {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-areas: "insta-pics1 insta-pics2 insta-pics3 insta-pics4" "insta-pics5 insta-pics6 insta-pics7 insta-pics7"; }
 
 /*# sourceMappingURL=main.css.map */

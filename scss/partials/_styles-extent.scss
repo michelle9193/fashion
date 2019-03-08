@@ -1,7 +1,19 @@
-.BG {
+.top-section {
     width: 100%;
     height: 53px;
     background-color: #2d2827;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.options {
+    display: inline;
+}
+
+.socials {
+    display: inline;
+
 }
 
 .header {
@@ -54,7 +66,6 @@
 
 .heading {
     height: 38px;
-    font-family: Dosis;
     font-size: 50px;
     font-weight: normal;
     font-style: normal;
@@ -90,6 +101,7 @@
     background-color: #a88d7b;
     display: block;
     margin: auto;
+    border: none;
 }
 
 .down-arrow {
@@ -111,9 +123,8 @@
     background-color: rgb(240, 233, 233);
 }
 
-.feature,
-.collection {
-    @include headings
+.main-head {
+    @include main-headings
 }
 
 .line {
@@ -144,3 +155,63 @@ img {
     padding-bottom: 60px;
 }
 
+.content3 {
+    height: 350px;
+    background-color: #666666;
+}
+
+.left-text {
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 50px
+}
+
+.denim-looks {
+    font-size: 48px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.denim {
+    width: 656px;
+    height: 38px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-right: 0;
+    width: auto
+}
+
+.view-more {
+    width: 150px;
+    height: 40px;
+    background-color: #a88d7b;
+    display: block;
+    margin: auto;
+    border: none;
+} 
+
+.blog-article {
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.insta-pics {
+    height: 30px;
+}

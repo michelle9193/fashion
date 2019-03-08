@@ -2,8 +2,30 @@ body {
     margin: 0;
 }
 
+select {
+    border: none;
+    background-color: transparent;
+    color: white
+}
+
 ul {
     margin-top: 0;
+    
+    }
+  
+    li {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    text-decoration: none;
+    font-family: 'Raleway';
+}
+
+
+
+li a {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h2 {
@@ -16,5 +38,15 @@ h2 {
     line-height: 0.5;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
-  }
+    color: black;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px
+}

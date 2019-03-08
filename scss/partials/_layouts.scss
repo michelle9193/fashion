@@ -1,3 +1,10 @@
+.top-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "top-left top-mid top-right"
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,4 +59,38 @@
 
 .new-product2 {
     grid-area: new-product2;
+}
+
+
+.content3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "left-text right-text"
+}
+
+.blog-article {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "blog-pic blog-content"
+}
+
+footer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "row1 row2 row3 row4"
+}
+
+.insta-pics {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-areas: 
+    "insta-pics1 insta-pics2 insta-pics3 insta-pics4"
+    "insta-pics5 insta-pics6 insta-pics7 insta-pics7"
 }
