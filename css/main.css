@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Montserrat:700|Noto+Sans+SC|Roboto:400,500,700|Pacifico|Gamja+Flower|Raleway:500|Oswald|Lobster|Dancing+Script|IBM+Plex+Serif:400i|IBM+Plex+Sans+Condensed:400i|IBM+Plex+Serif:400i";
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Dosis";
 @import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
 body {
   margin: 0; }
@@ -8,19 +8,36 @@ select {
   background-color: transparent;
   color: white; }
 
+div.socials {
+  display: inline; }
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 200px;
+  text-align: center;
+  font-weight: normal; }
+
+div.search,
+div.cart {
+  display: inline;
+  margin: auto; }
+
 ul {
-  margin-top: 0; }
+  margin-top: 0;
+  display: inline; }
 
 li {
   margin-left: auto;
   margin-right: auto;
   display: inline;
-  text-decoration: none;
   font-family: 'Raleway'; }
 
 li a {
+  padding: 0 20px;
+  font-family: 'Dosis';
+  text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold; }
+  color: #ffffff; }
 
 h2 {
   height: 37px;
@@ -47,15 +64,31 @@ footer {
   width: 100%;
   height: 53px;
   background-color: #2d2827;
-  color: white;
+  color: #ffffff;
   display: block;
-  margin: auto; }
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0; }
 
 .options {
-  display: inline; }
+  display: inline;
+  margin-right: 50px; }
+
+.logo {
+  font-size: 30px;
+  margin-top: 500px; }
+
+.top-left {
+  padding: 16px 0; }
+
+.top-right {
+  padding: 16px 0;
+  text-align: center; }
 
 .socials {
-  display: inline; }
+  margin-right: 20px; }
 
 .header {
   width: 100%;
@@ -63,50 +96,33 @@ footer {
   background-color: #666666; }
 
 .search {
-  width: 22px;
+  margin-right: 150px;
+  width: 50px;
   height: 23px;
-  font-family: Linearicons-Free;
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.1px;
-  text-align: left;
-  color: #ffffff; }
-
-.home {
-  width: 36px;
-  height: 11px;
-  font-family: Dosis;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: 0.8px;
+  letter-spacing: 1.1px;
   text-align: left;
   color: #ffffff; }
 
 .cart {
+  margin-left: 150px;
   width: 21px;
   height: 18px;
-  font-family: FontAwesome;
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
+  font-size: 15px;
   letter-spacing: 1.1px;
   text-align: left;
   color: #ffffff; }
 
 .heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
   height: 38px;
   font-size: 50px;
   font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 0.96;
   letter-spacing: normal;
   text-align: center;
@@ -142,7 +158,6 @@ footer {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.6;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff; }
@@ -153,7 +168,7 @@ footer {
 
 .main-head {
   height: 24px;
-  font-family: SourceSansPro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 36px;
   font-weight: normal;
   font-style: normal;
@@ -248,7 +263,7 @@ img {
 .top-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "top-left top-mid top-right"; }
+  grid-template-areas: "top-left top-mid top-right6"; }
 
 .container {
   display: grid;

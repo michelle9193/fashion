@@ -8,8 +8,27 @@ select {
     color: white
 }
 
+div.socials {
+    display: inline;
+}
+
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-weight: normal;
+}
+
+div.search,
+div.cart {
+    display: inline;
+    margin: auto;
+}
+
 ul {
     margin-top: 0;
+    display: inline;
     
     }
   
@@ -17,15 +36,17 @@ ul {
     margin-left: auto;
     margin-right: auto;
     display: inline;
-    text-decoration: none;
     font-family: 'Raleway';
 }
 
 
 
 li a {
+    padding: 0 20px;
+    font-family: 'Dosis';
+    text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
+    color: #ffffff;
 }
 
 h2 {
