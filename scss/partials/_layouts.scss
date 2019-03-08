@@ -24,6 +24,12 @@
     grid-area: content;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .products {
     display: grid;
     grid-gap: 20px;
