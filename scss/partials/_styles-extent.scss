@@ -6,8 +6,22 @@
 
 .header {
     width: 100%;
-    height: 945px;
+    height: 600px;
     background-color: #666666;
+}
+
+.search {
+    width: 22px;
+    height: 23px;
+    font-family: Linearicons-Free;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #ffffff;
 }
 
 .home {
@@ -20,6 +34,20 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.cart {
+    width: 21px;
+    height: 18px;
+    font-family: FontAwesome;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
     text-align: left;
     color: #ffffff;
 }
@@ -37,6 +65,10 @@
     color: #ffffff;
 }
 
+.add-remove {
+
+}
+
 .title {
     text-align: center;
     height: 39px;
@@ -51,28 +83,64 @@
     color: #e6e6e6;
 }
 
-button {
-    
-}
-
 .topbtn {
     width: 150px;
     height: 40px;
     border-radius: 20px;
     background-color: #a88d7b;
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 
-.scroll-arrow {
-   width: 29px;
-  height: 16px;
-  font-family: Linearicons-Free;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff 
+.down-arrow {
+    width: 29px;
+    height: 16px;
+    font-family: Linearicons-Free;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff 
 }
+
+.content {
+    padding-top: 5px;
+    background-color: rgb(240, 233, 233);
+}
+
+.feature,
+.collection {
+    @include headings
+}
+
+.line {
+    @include underline
+}
+
+.products {
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 200px;
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.new-products {
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 250px;
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+

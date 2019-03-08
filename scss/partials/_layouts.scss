@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "header header header"
+        "content content content"
+        "footer footer footer"
+}
+
+.header{
+    grid-area: header;
+
+}
+
+.main {
+    grid-area: content;
+}
+
+.products {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "product1 product2 product3"
+}
+
+.product1 {
+    grid-area: product1;
+}
+
+.product2 {
+    grid-area: product2;
+}
+
+.product3 {
+    grid-area: product3;
+}
+
+
+.new-products {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "new-product1 new-product2"
+}
+
+.new-product1 {
+    grid-area: new-product1;
+}
+
+.new-product2 {
+    grid-area: new-product2;
+}

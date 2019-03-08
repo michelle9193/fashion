@@ -1,0 +1,20 @@
+@mixin headings {
+    height: 24px;
+    font-family: SourceSansPro;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+@mixin underline {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 1px;
+    background-color: #333333;
+}
