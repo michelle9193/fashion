@@ -37,8 +37,10 @@
 
 .header {
     width: 100%;
-    height: 620px;
-    background-color: #666666;
+    height: 650px;    
+    background-image: url(/images/adults-black-and-white-casual-1374542.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .search {
@@ -69,7 +71,6 @@
 
 .heading {
     font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
     height: 38px;
     font-size: 50px;
     font-weight: normal;
@@ -103,25 +104,30 @@
     height: 40px;
     border-radius: 20px;
     background-color: #a88d7b;
+    color: white;
+    text-transform: uppercase;
     display: block;
     margin: auto;
     border: none;
 }
 
 .down-arrow {
-    margin-top: 90px;
     height: 16px;
     font-family: 'Source Sans Pro';
     font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
     text-align: center;
-    color: #ffffff 
+    color: #ffffff;
+    animation: move 1s ease infinite;
+}
+
+@keyframes move {
+    0% {margin-top: 90px;}
+    50% {margin-top: 110px;}
+    100% {margin-top: 90px;}
 }
 
 .content {
+    height: 600px;
     padding-top: 5px;
     background-color: rgb(240, 233, 233);
 }
