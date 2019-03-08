@@ -289,6 +289,7 @@ img {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 300px);
   grid-template-areas: "product1 product2 product3"; }
 
 .product1 {
@@ -304,6 +305,7 @@ img {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 300px);
   grid-template-areas: "new-product1 new-product2"; }
 
 .new-product1 {
