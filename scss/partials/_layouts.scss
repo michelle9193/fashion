@@ -131,3 +131,12 @@ footer {
     grid-area: header2;
 
 }
+
+.who-we-are {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 365px);
+    grid-template-areas: 
+    "statement company"
+}

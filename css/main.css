@@ -318,6 +318,43 @@ footer {
   text-align: center;
   color: #e6e6e6; }
 
+.who-we-are {
+  display: block;
+  margin: auto;
+  width: 900px;
+  height: 300px;
+  margin-top: 70px;
+  margin-bottom: 60px; }
+
+.main-head2 {
+  margin-top: 0 !important;
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333; }
+
+.title {
+  text-align: left !important;
+  color: #666666 !important;
+  margin-bottom: 70px;
+  text-align: center;
+  height: 39px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e6e6e6; }
+
 .top-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -408,5 +445,12 @@ footer {
 
 .header2 {
   grid-area: header2; }
+
+.who-we-are {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, 365px);
+  grid-template-areas: "statement company"; }
 
 /*# sourceMappingURL=main.css.map */

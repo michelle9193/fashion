@@ -88,18 +88,7 @@
 }
 
 .title {
-    margin-bottom: 70px;
-    text-align: center;
-    height: 39px;
-    font-family: 'Source Sans Pro';
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: #e6e6e6;
+    @include title
 }
 
 .topbtn {
@@ -278,4 +267,24 @@
     letter-spacing: normal;
     text-align: center;
     color: #e6e6e6;
+}
+
+.who-we-are {
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.main-head2 {
+    margin-top: 0 !important;
+    @include main-headings
+}
+
+.title {
+    text-align: left !important; 
+    color: #666666 !important;
+    @include title;
 }
