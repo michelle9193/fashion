@@ -115,3 +115,19 @@ footer {
     grid-template-areas:
         "top-left top-mid top-right"
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "header2 header2 header2"
+        "content2 content2 content2"
+        "footer2 footer2 footer2"
+}
+
+
+.header2 {
+    grid-area: header2;
+
+}
