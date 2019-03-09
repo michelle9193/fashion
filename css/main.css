@@ -363,6 +363,14 @@ footer {
   margin-top: 120px;
   margin-bottom: 200px; }
 
+.what-we-do {
+  display: block;
+  margin: auto;
+  width: 900px;
+  height: 300px;
+  margin-top: 70px;
+  margin-bottom: 200px; }
+
 .top-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -481,5 +489,12 @@ footer {
 .team {
   grid-area: team;
   grid-column: 1 / -1; }
+
+.what-we-do {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, 385px);
+  grid-template-areas: "company1 statement1"; }
 
 /*# sourceMappingURL=main.css.map */

@@ -167,3 +167,12 @@ footer {
     grid-area: team;
     grid-column: 1 / -1;
 }
+
+.what-we-do {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 385px);
+    grid-template-areas: 
+    "company1 statement1"
+}
