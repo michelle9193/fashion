@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-        "top-left top-mid top-right6"
+        "top-left top-mid top-right"
 }
 
 .container {
@@ -103,4 +103,15 @@ footer {
     grid-template-areas: 
     "insta-pics1 insta-pics2 insta-pics3 insta-pics4"
     "insta-pics5 insta-pics6 insta-pics7 insta-pics7"
+}
+
+
+/* ABOUT PAGE 
+======================================================================= */ 
+
+.top-section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "top-left top-mid top-right"
 }

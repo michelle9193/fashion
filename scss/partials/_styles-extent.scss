@@ -1,3 +1,10 @@
+.nav-home {
+    margin-top: 20px;
+    margin-bottom: 160px;
+    text-align: center;
+    font-weight: normal;
+}
+
 .top-section {
     width: 100%;
     height: 53px;
@@ -38,7 +45,7 @@
 .header {
     width: 100%;
     height: 650px;    
-    background-image: url(/images/adults-black-and-white-casual-1374542.jpg);
+    background-image: url(../images/adults-black-and-white-casual-1374542.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -217,4 +224,31 @@
 
 .insta-pics {
     height: 30px;
+}
+
+
+
+/* ABOUT PAGE 
+======================================================================= */ 
+.top-section2 {
+    width: 100%;
+    height: 53px;
+    background-color: #eeeeee;
+    color: #999999;
+    display: block;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    top:0;
+}
+
+.nav-default {
+    background-color: #ffffff;
+    color: #666666;
+    z-index: 2;
+    height: 70px;
+    margin-bottom: 160px;
+    text-align: center;
+    font-weight: normal;
 }
