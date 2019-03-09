@@ -140,3 +140,30 @@ footer {
     grid-template-areas: 
     "statement company"
 }
+
+.meet-our-team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: 
+    "meet team"
+}
+
+.meet {
+    grid-area: meet;
+    grid-column: 1 / -1;
+}
+
+.team {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas:
+    "sipho nina brian gail"
+}
+
+.team {
+    grid-area: team;
+    grid-column: 1 / -1;
+}

@@ -355,6 +355,14 @@ footer {
   text-align: center;
   color: #e6e6e6; }
 
+.team {
+  display: block;
+  margin: auto;
+  width: 800px;
+  height: 200px;
+  margin-top: 120px;
+  margin-bottom: 200px; }
+
 .top-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -452,5 +460,26 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(1, 385px);
   grid-template-areas: "statement company"; }
+
+.meet-our-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas: "meet team"; }
+
+.meet {
+  grid-area: meet;
+  grid-column: 1 / -1; }
+
+.team {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas: "sipho nina brian gail"; }
+
+.team {
+  grid-area: team;
+  grid-column: 1 / -1; }
 
 /*# sourceMappingURL=main.css.map */
