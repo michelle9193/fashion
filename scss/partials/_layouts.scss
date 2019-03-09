@@ -176,3 +176,30 @@ footer {
     grid-template-areas: 
     "company1 statement1"
 }
+
+.operation {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: 
+    "address telephone hours"
+}
+
+
+
+.form {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "name surname"
+    "phone subject"
+    "message message"
+}
+
+
+.message {
+    grid-column: 1 / -1;
+}

@@ -371,6 +371,27 @@ footer {
   margin-top: 70px;
   margin-bottom: 200px; }
 
+/* CONTACT FORM 
+=======================================================================================
+*/
+.operation {
+  background-color: #e6e6e6;
+  display: block;
+  margin: auto;
+  width: 900px;
+  height: 150px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+  padding-top: 20px; }
+
+.form {
+  margin: 120px; }
+
+input {
+  height: 40px;
+  width: 570px; }
+
 .top-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -496,5 +517,22 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(1, 385px);
   grid-template-areas: "company1 statement1"; }
+
+.operation {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas: "address telephone hours"; }
+
+.form {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "name surname" "phone subject" "message message"; }
+
+.message {
+  grid-column: 1 / -1; }
 
 /*# sourceMappingURL=main.css.map */
