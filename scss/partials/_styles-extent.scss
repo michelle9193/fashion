@@ -3,6 +3,7 @@
     margin-bottom: 160px;
     text-align: center;
     font-weight: normal;
+    color: black;
 }
 
 .top-section {
@@ -240,7 +241,8 @@
 .header2 {
     width: 100%;
     height: 445px;    
-    background-color: #666666;
+    background-color: rgba(0, 0, 0, 0.5)
+    ;
 }
 
 .heading2 {
@@ -330,4 +332,25 @@
 input {
     height: 40px;
     width: 570px;
+}
+
+.color li a {
+    color: black;
+}
+
+/* BLOG PAGE 
+==============================================================
+*/ 
+
+.secondary {
+    margin-bottom: 550px;
+}
+
+.collections {
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 200px;
 }

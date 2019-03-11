@@ -34,7 +34,6 @@ img {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    
     grid-template-rows: repeat(2, 300px);
     grid-template-areas: 
     "product1 product2 product3"
@@ -202,4 +201,26 @@ footer {
 
 .message {
     grid-column: 1 / -1;
+}
+
+
+/* Blog section 
+===========================================================
+*/
+
+.blog-grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "word-blog share"
+}
+
+.collections {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "blogs1 blogs2 blogs3"
+    "blogs4 blogs5 blogs6"
 }
