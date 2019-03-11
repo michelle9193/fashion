@@ -42,11 +42,15 @@
     margin-right: 20px
 }
 
+.client {
+    width: 117px;
+    height: 21px;
+}
 
 .header {
     width: 100%;
     height: 650px;    
-    background-image: url(../images/adults-black-and-white-casual-1374542.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/90s-fashion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -64,8 +68,6 @@
     text-align: left;
     color: #ffffff;
 }
-
-
 
 .cart {
     margin-left: 150px;
@@ -88,8 +90,8 @@
     color: #ffffff;
 }
 
-.title {
-    @include title
+.main-title {
+    @include main-title
 }
 
 .topbtn {
@@ -142,6 +144,18 @@
     padding-bottom: 60px;
 }
 
+.content2 {
+    margin-bottom: 200px;
+}
+
+.gender {
+    @include gender;
+}
+
+.title {
+    @include title;
+}
+
 .new-products {
     display: block;
     margin: auto;
@@ -149,6 +163,10 @@
     height: 250px;
     margin-top: 70px;
     padding-bottom: 60px;
+}
+
+.description {
+    @include description
 }
 
 .content3 {
