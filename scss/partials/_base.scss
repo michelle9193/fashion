@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -58,16 +59,27 @@ h2 {
     color: black;
 }
 
-h4 {
-    margin-top: 0;
+h5 {
+    margin-top: 0 !important;
+    text-align: left !important;
 }
 
 footer {
     background-color: black;
     color: white;
-    height: 200px
+    height: 200px;
+    font-family: 'Source Sans Pro';
+    padding: 50px 60px;
+    color: #999999;
+
 }
 
+h4 {
+    margin-top: 0;
+    color: #e5e5e5;
+    text-transform: uppercase;
+    margin-bottom: 60px
+}
 
 
 /* ABOUT PAGE 

@@ -1,7 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Dosis";
 @import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
 body {
-  margin: 0; }
+  margin: 0;
+  scroll-behavior: smooth; }
 
 /* HOMEPAGE
 ===================================================================================== */
@@ -47,13 +48,23 @@ h2 {
   text-align: center;
   color: black; }
 
-h4 {
-  margin-top: 0; }
+h5 {
+  margin-top: 0 !important;
+  text-align: left !important; }
 
 footer {
   background-color: black;
   color: white;
-  height: 200px; }
+  height: 200px;
+  font-family: 'Source Sans Pro';
+  padding: 50px 60px;
+  color: #999999; }
+
+h4 {
+  margin-top: 0;
+  color: #e5e5e5;
+  text-transform: uppercase;
+  margin-bottom: 60px; }
 
 /* ABOUT PAGE 
 ======================================================================= */
@@ -81,10 +92,6 @@ footer {
   display: inline;
   margin-right: 50px; }
 
-.logo {
-  font-size: 30px;
-  margin-top: 500px; }
-
 .top-left {
   padding: 16px 0; }
 
@@ -96,8 +103,17 @@ footer {
   margin-right: 20px; }
 
 .client {
-  width: 117px;
+  width: 130px;
   height: 21px; }
+
+.footer-client-name {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  color: #e5e5e5;
+  letter-spacing: 15px;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 0; }
 
 .header {
   width: 100%;
@@ -256,36 +272,31 @@ footer {
 
 .left-text {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 30px;
   padding-left: 50px; }
 
 .denim-looks {
   font-size: 48px;
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Dosis';
   font-stretch: normal;
-  line-height: 0.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff; }
-
-.denim {
-  width: 656px;
-  height: 38px;
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 30px;
-  margin-right: 0;
+  margin-bottom: 30px; }
+
+.denim {
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 40px 40px 40px;
   width: auto; }
 
 .view-more {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', serif;
+  text-transform: uppercase;
   width: 150px;
   height: 40px;
   background-color: #a88d7b;
@@ -301,8 +312,40 @@ footer {
   margin-top: 70px;
   margin-bottom: 60px; }
 
+.date {
+  font-family: 'Source Sans Pro', serif;
+  color: #c9c7c7;
+  margin-top: 0;
+  letter-spacing: 1px;
+  font-size: 13px; }
+
+.left-description {
+  font-family: 'Source Sans Pro', serif;
+  text-align: left;
+  color: #666666;
+  font-size: 14px; }
+
+.arrow-text,
+.arrow-right {
+  font-family: 'Source Sans Pro', serif;
+  color: #a88d7b;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  font-size: 13px; }
+
+.arrow-right {
+  margin-left: 8px; }
+
 .insta-pics {
   height: 30px; }
+
+.location,
+.phone,
+.email {
+  color: #999999;
+  font-family: 'Source Sans Pro', serif;
+  margin-bottom: 30px;
+  letter-spacing: 2px; }
 
 /* ABOUT PAGE 
 ======================================================================= */
@@ -512,7 +555,7 @@ footer {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "row1 row2 row3 row4"; }
+  grid-template-areas: "footer-contact-section footer-links-section footer-shop-section footer-instagram-section"; }
 
 .insta-pics {
   display: grid;
