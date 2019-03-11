@@ -57,7 +57,7 @@ footer {
   color: white;
   height: 200px;
   font-family: 'Source Sans Pro';
-  padding: 50px 60px;
+  padding: 50px 90px;
   color: #999999; }
 
 h4 {
@@ -337,7 +337,7 @@ h4 {
   margin-left: 8px; }
 
 .insta-pics {
-  height: 30px; }
+  height: 120px; }
 
 .location,
 .phone,
@@ -346,6 +346,23 @@ h4 {
   font-family: 'Source Sans Pro', serif;
   margin-bottom: 30px;
   letter-spacing: 2px; }
+
+.links-on-footer a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', serif;
+  color: #999999;
+  display: block;
+  margin-bottom: 15px; }
+
+.shop-link-on-footer a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', serif;
+  color: #999999;
+  display: block;
+  margin-bottom: 15px; }
+
+.footer-links-section {
+  padding-left: 100px; }
 
 /* ABOUT PAGE 
 ======================================================================= */
