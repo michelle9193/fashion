@@ -1,3 +1,4 @@
+// Section abouve nav
 .top-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -5,6 +6,7 @@
         "top-left top-mid top-right"
 }
 
+// All content is wrapped in the container
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -15,6 +17,7 @@
         "footer footer footer"
 }
 
+// Top section and nav is in the header
 .header{
     grid-area: header;
 
@@ -27,28 +30,29 @@
 img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
-.products {
+
+// Featured products grid
+.featured-product {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(1, 300px);
+    grid-template-rows: repeat(1, 360px);
     grid-template-areas: 
-    "product1 product2 product3"
+    "white-checkered-hoodie high-waisted-jeans milano-crop-top"
 }
 
-.product1 {
-    grid-area: product1;
+.white-checkered-hoodie {
+    grid-area: white-checkered-hoodie;
 }
 
-.product2 {
-    grid-area: product2;
+.high-waisted-jeans {
+    grid-area: high-waisted-jeans;
 }
 
-.product3 {
-    grid-area: product3;
+.milano-crop-top {
+    grid-area: milano-crop-top;
 }
 
 
@@ -57,26 +61,26 @@ img {
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
     
-    grid-template-rows: repeat(2, 400px);
+    grid-template-rows: repeat(1, 373px);
     grid-template-areas: 
-    "new-product1 new-product2"
+    "female-yellow-shirt male-colorful-shirt"
 }
 
-.new-product1 {
-    grid-area: new-product1;
+.female-yellow-shirtt1 {
+    grid-area: female-yellow-shirtt1;
 }
 
-.new-product2 {
-    grid-area: new-product2;
+.male-colorful-shirt {
+    grid-area: male-colorful-shirt;
 }
 
 
-.content3 {
+.denim-main-grid {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-    "left-text right-text"
+    "denim-looks-right-grid denim-looks-left-grid"
 }
 
 .blog-article {

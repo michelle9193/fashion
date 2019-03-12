@@ -70,16 +70,17 @@ h4 {
 ======================================================================= */
 /* Web Fonts -------------------- */
 .nav-home {
-  margin-top: 20px;
-  margin-bottom: 160px;
+  padding-top: 30px;
+  margin-bottom: 130px;
   text-align: center;
   font-weight: normal;
-  color: black; }
+  color: black;
+  height: 60px; }
 
 .top-section {
   width: 100%;
   height: 53px;
-  background-color: #2d2827;
+  background-color: #666666;
   color: #ffffff;
   display: block;
   margin: auto;
@@ -118,7 +119,7 @@ h4 {
 .header {
   width: 100%;
   height: 650px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/90s-fashion.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/adults-black-and-white-casual-1374542.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -156,7 +157,7 @@ h4 {
 
 .main-title {
   text-align: center;
-  margin-bottom: 85px;
+  margin-bottom: 65px;
   height: 39px;
   font-family: 'Source Sans Pro';
   font-size: 15px;
@@ -189,14 +190,15 @@ h4 {
 
 @keyframes move {
   0% {
-    margin-top: 90px; }
+    margin-top: 80px; }
   50% {
-    margin-top: 110px; }
+    margin-top: 100px; }
   100% {
-    margin-top: 90px; } }
+    margin-top: 80px; } }
 .content {
-  height: 600px;
+  height: 650px;
   padding-top: 5px;
+  margin-bottom: 60px;
   background-color: #f0e9e9; }
 
 .main-head {
@@ -218,16 +220,18 @@ h4 {
   height: 1px;
   background-color: #333333; }
 
-.products {
+.featured-product {
   display: block;
   margin: auto;
-  width: 800px;
-  height: 200px;
-  margin-top: 70px;
+  width: 1000px;
+  height: 370px;
+  margin-top: 50px;
   padding-bottom: 60px; }
 
-.content2 {
-  margin-bottom: 200px; }
+div.female-yellow-shirt,
+div.male-colorful-sweater {
+  width: 360px;
+  height: 373px; }
 
 .gender {
   font-weight: normal;
@@ -255,7 +259,7 @@ h4 {
   display: block;
   margin: auto;
   width: 800px;
-  height: 250px;
+  height: 450px;
   margin-top: 70px;
   padding-bottom: 60px; }
 
@@ -266,14 +270,21 @@ h4 {
   text-align: center;
   margin-top: 0; }
 
-.content3 {
+.denim-main-grid {
   height: 350px;
-  background-color: #666666; }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/vector-modern-abstract-geometry-triangle-pattern-black-white-seamless-geometric-background-subtle-pillow-bed-sheet-design-79029924.jpg); }
 
-.left-text {
+.denim-looks-left-grid {
   text-align: center;
   padding-top: 30px;
   padding-left: 50px; }
+
+.denim-looks-right-grid {
+  padding-top: 10px;
+  height: 300px;
+  width: 400px;
+  margin: auto;
+  display: block; }
 
 .denim-looks {
   font-size: 48px;
@@ -283,7 +294,7 @@ h4 {
   color: #ffffff;
   margin-bottom: 30px; }
 
-.denim {
+.denim-paragraph {
   font-family: 'Source Sans Pro';
   font-size: 15px;
   line-height: 1.6;
@@ -304,13 +315,17 @@ h4 {
   margin: auto;
   border: none; }
 
+.content4 {
+  height: 500px;
+  margin-bottom: 30px; }
+
 .blog-article {
   display: block;
   margin: auto;
-  width: 900px;
-  height: 300px;
-  margin-top: 70px;
-  margin-bottom: 60px; }
+  width: 56.25rem;
+  height: 18.75rem;
+  margin-top: 4.375rem;
+  margin-bottom: 3.75rem; }
 
 .date {
   font-family: 'Source Sans Pro', serif;
@@ -319,7 +334,22 @@ h4 {
   letter-spacing: 1px;
   font-size: 13px; }
 
-.left-description {
+.blog-title {
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  height: 30px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  letter-spacing: 1px !important;
+  font-size: 15px !important; }
+
+.blog-description {
   font-family: 'Source Sans Pro', serif;
   text-align: left;
   color: #666666;
@@ -524,43 +554,42 @@ input {
 
 img {
   width: 100%;
-  height: 100%;
-  object-fit: cover; }
+  height: 100%; }
 
-.products {
+.featured-product {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(1, 300px);
-  grid-template-areas: "product1 product2 product3"; }
+  grid-template-rows: repeat(1, 360px);
+  grid-template-areas: "white-checkered-hoodie high-waisted-jeans milano-crop-top"; }
 
-.product1 {
-  grid-area: product1; }
+.white-checkered-hoodie {
+  grid-area: white-checkered-hoodie; }
 
-.product2 {
-  grid-area: product2; }
+.high-waisted-jeans {
+  grid-area: high-waisted-jeans; }
 
-.product3 {
-  grid-area: product3; }
+.milano-crop-top {
+  grid-area: milano-crop-top; }
 
 .new-products {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 400px);
-  grid-template-areas: "new-product1 new-product2"; }
+  grid-template-rows: repeat(1, 373px);
+  grid-template-areas: "female-yellow-shirt male-colorful-shirt"; }
 
-.new-product1 {
-  grid-area: new-product1; }
+.female-yellow-shirtt1 {
+  grid-area: female-yellow-shirtt1; }
 
-.new-product2 {
-  grid-area: new-product2; }
+.male-colorful-shirt {
+  grid-area: male-colorful-shirt; }
 
-.content3 {
+.denim-main-grid {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "left-text right-text"; }
+  grid-template-areas: "denim-looks-right-grid denim-looks-left-grid"; }
 
 .blog-article {
   display: grid;
