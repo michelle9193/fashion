@@ -88,13 +88,33 @@ img {
     "blog-pic blog-content"
 }
 
-footer {
+.footer-grid {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-    "footer-contact-section footer-links-section footer-shop-section footer-instagram-section"
- 
+    "section-1 section-2"
+}
+
+.footer-content {
+    
+}
+
+
+.footer-left {
+    grid-area: section-1;
+    place-items: start;
+}
+
+.footer-right {
+    grid-area: section-2;
+    place-content: top end;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-areas: 
+        "footer-links-section footer-shop-section footer-instagram-section";
 }
 
 .insta-pics {
