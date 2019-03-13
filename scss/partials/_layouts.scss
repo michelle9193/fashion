@@ -30,6 +30,7 @@
 img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 
@@ -38,7 +39,6 @@ img {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(1, 360px);
     grid-template-areas: 
     "white-checkered-hoodie high-waisted-jeans milano-crop-top"
 }
@@ -58,22 +58,18 @@ img {
 
 .new-products {
     display: grid;
-    grid-gap: 20px;
+    width: 570px;
+    grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
-    
     grid-template-rows: repeat(1, 373px);
     grid-template-areas: 
-    "female-yellow-shirt male-colorful-shirt"
+    "female-yellow-shirt male-colorful-sweater"
 }
 
-.female-yellow-shirtt1 {
-    grid-area: female-yellow-shirtt1;
+.female-yellow-shirt,
+.male-colorful-sweater {
+    width: 570px;
 }
-
-.male-colorful-shirt {
-    grid-area: male-colorful-shirt;
-}
-
 
 .denim-main-grid {
     display: grid;
@@ -83,10 +79,11 @@ img {
     "denim-looks-right-grid denim-looks-left-grid"
 }
 
-.blog-article {
+.blog-article-grid {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 373px);
     grid-template-areas: 
     "blog-pic blog-content"
 }
@@ -97,6 +94,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "footer-contact-section footer-links-section footer-shop-section footer-instagram-section"
+ 
 }
 
 .insta-pics {
@@ -108,6 +106,9 @@ footer {
     "insta-pics5 insta-pics6 insta-pics7 insta-pics7"
 }
 
+.copyright {
+    grid-column: 1 / -1;
+}
 
 /* ABOUT PAGE 
 ======================================================================= */ 
@@ -137,47 +138,60 @@ footer {
 
 .who-we-are {
     display: grid;
+    margin-left: 50px;
+    margin-bottom: 80px;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1, 385px);
+    grid-template-rows: repeat(1, 490px);
     grid-template-areas: 
     "statement company"
 }
 
 .meet-our-team {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    display: block;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr  1fr;
     grid-template-rows: repeat(1, auto);
     grid-template-areas: 
-    "meet team"
-}
-
-.meet {
-    grid-area: meet;
-    grid-column: 1 / -1;
+    "meet meet meet meet"
+    "team team team team"
 }
 
 .team {
     display: grid;
     grid-gap: 20px;
+    width: 270px;
+    margin-left: 100px;
+    margin-top: 70px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(1, auto);
+    grid-template-rows: repeat(1, 305px);
     grid-template-areas:
     "sipho nina brian gail"
 }
 
 .team {
-    grid-area: team;
-    grid-column: 1 / -1;
+    height: 500px;
+}
+
+.employee-pics {
+    width: 270px;
 }
 
 .what-we-do {
+    margin-left: 70px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1, 385px);
+    grid-template-rows: repeat(1, 490px);
     grid-template-areas: 
     "company1 statement1"
+}
+
+.company-image, 
+.statement2 {
+    width: 600px;
 }
 
 .operation {

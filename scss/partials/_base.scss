@@ -46,6 +46,10 @@ li a {
     color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+}
+
 h2 {
     height: 37px;
     font-family: Dosis;
@@ -67,9 +71,9 @@ h5 {
 footer {
     background-color: black;
     color: white;
-    height: 200px;
+    height: 425px;
     font-family: 'Source Sans Pro';
-    padding: 50px 90px;
+    padding: 120px 90px 0 90px;
     color: #999999;
 
 }

@@ -1,5 +1,5 @@
 .nav-home {
-    padding-top: 30px;
+    padding-top: 10px;
     margin-bottom: 130px;
     text-align: center;
     font-weight: normal;
@@ -25,23 +25,25 @@
     margin-right: 50px
 }
 
+.top-right,
 .top-left {
-    padding: 16px 0;
-}
-
-.top-right {
-    padding: 16px 0;
-    text-align: center;
+    padding-top: 20px;
 }
 
 .socials {
-    margin-right: 20px
+    margin-right: 20px;
+    display: inline;
 }
 
-.client {
-    width: 130px;
-    height: 21px;
-}
+.client-name-light {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #e5e5e5;
+    letter-spacing: 15px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}    
 
 .footer-client-name {
     font-family: 'Source Sans Pro', sans-serif;
@@ -49,7 +51,6 @@
     color: #e5e5e5;
     letter-spacing: 15px;
     font-size: 40px;
-    margin-bottom: 30px;
     margin-top: 0;
 }
 
@@ -144,17 +145,15 @@
 
 .featured-product {
     display: block;
-    margin: auto;
+    margin-left: 100px;
     width: 1000px;
-    height: 370px;
     margin-top: 50px;
     padding-bottom: 60px;
 }
 
-div.female-yellow-shirt,
-div.male-colorful-sweater {
-    width: 360px;
-    height: 373px;
+.hoodie-jeans-crop {
+    width: 370px;
+    height: 360px;
 }
 
 .gender {
@@ -165,9 +164,13 @@ div.male-colorful-sweater {
     @include title;
 }
 
+.content2 {
+    margin-left: 30px;
+}
+
 .new-products {
     display: block;
-    margin: auto;
+    margin-left: 70px;
     width: 800px;
     height: 450px;
     margin-top: 70px;
@@ -179,15 +182,15 @@ div.male-colorful-sweater {
 }
 
 .denim-main-grid {
-    height: 350px;
+    height: 552px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/vector-modern-abstract-geometry-triangle-pattern-black-white-seamless-geometric-background-subtle-pillow-bed-sheet-design-79029924.jpg);
     
 }
 
 .denim-looks-left-grid {
     text-align: center;
-    padding-top: 30px;
-    padding-left: 50px
+    margin: auto;
+    display: inline;
 }
 
 .denim-looks-right-grid {
@@ -230,18 +233,20 @@ div.male-colorful-sweater {
     border: none;
 } 
 
-.content4 {
-    height: 500px;
-    margin-bottom: 30px;
+
+// =======================================================
+// Blog Article Grid
+.blog-pic,
+.blog-content {
+    width: 570px;
 }
 
-.blog-article {
-    display: block;
-    margin: auto;
-    width: 56.25rem;
-    height: 18.75rem;
+.blog-article-grid {
+    margin-left: 100px;
     margin-top: 4.375rem;
     margin-bottom: 3.75rem;
+    width: 570px;
+    height: 373px;
 }
 
 .date {
@@ -296,7 +301,11 @@ div.male-colorful-sweater {
     font-family: 'Source Sans Pro', serif;
     color: #999999;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-shop-section {
+    padding-left: 80px;
 }
 
 .shop-link-on-footer a {
@@ -304,11 +313,21 @@ div.male-colorful-sweater {
     font-family: 'Source Sans Pro', serif;
     color: #999999;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
+
 .footer-links-section {
-    padding-left: 100px;
+    padding-left: 150px;
+}
+
+.copyright {
+    background-color: #d7d7d7;
+    color: #666666;
+    height: 85px;
+    font-family: 'Source Sans Pro', serif;
+    padding-top: 60px;
+    text-align: center;
 }
 
 
@@ -330,17 +349,22 @@ div.male-colorful-sweater {
 .nav-default {
     background-color: #ffffff;
     height: 70px;
+    padding-top: 20px;
     margin-bottom: 160px;
     text-align: center;
     font-weight: normal;
     color: black;
 }
 
+a.extra-margin {
+    margin-top: 10px;
+}
+
 .header2 {
     width: 100%;
     height: 445px;    
-    background-color: rgba(0, 0, 0, 0.5)
-    ;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
 }
 
 .heading2 {
@@ -369,13 +393,45 @@ div.male-colorful-sweater {
     color: #e6e6e6;
 }
 
-.who-we-are {
+.main {
     display: block;
-    margin: auto;
-    width: 900px;
-    height: 300px;
-    margin-top: 70px;
-    margin-bottom: 200px;
+}
+
+.who-we-are {
+    width: 600px;
+}
+
+p.employee {
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+
+p.expertise {
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--warm-grey);
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.statement,
+.company {
+    width: 600px;
 }
 
 .main-head2 {
@@ -384,28 +440,25 @@ div.male-colorful-sweater {
 }
 
 .details {
-    text-align: left !important; 
+    text-align: left; 
     color: #666666 !important;
-    @include title;
-}
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.67;
+    letter-spacing: normal;
+  }
 
-.team {
-    display: block;
-    margin: auto;
-    width: 800px;
-    height: 200px;
-    margin-top: 120px;
-    margin-bottom: 200px;
-}
 
 .what-we-do {
     display: block;
-    margin: auto;
     width: 900px;
-    height: 300px;
-    margin-top: 70px;
-    margin-bottom: 200px;
+    height: 600px;
+    
 }
+
 
 /* CONTACT FORM 
 =======================================================================================
@@ -432,7 +485,25 @@ input {
     width: 570px;
 }
 
-.color li a {
+ul.dark-font {
+    margin-top: 20px;
+    float: right;
+}
+
+.dark-font li a {
+    padding: 0 20px;
+    font-family: 'Dosis';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+a.client-name-dark {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 30px;
+    margin-bottom: 30px;
     color: black;
 }
 
