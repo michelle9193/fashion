@@ -11,14 +11,6 @@
     color: #333333;
 }
 
-@mixin underline {
-    display: block;
-    margin: auto;
-    width: 50px;
-    height: 1px;
-    background-color: #333333;
-}
-
 @mixin main-title {
     text-align: center;
     margin-bottom: 65px;

@@ -41,17 +41,53 @@ li a {
 a {
   text-decoration: none; }
 
-h2 {
-  height: 37px;
-  font-family: Dosis;
-  font-size: 48px;
+h1 {
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.5;
+  line-height: 1.33;
   letter-spacing: normal;
   text-align: center;
-  color: black; }
+  color: #333333;
+  margin: 40px 0; }
+
+h1:after {
+  background: black;
+  bottom: -8px;
+  margin: auto;
+  content: "";
+  display: block;
+  height: 1px;
+  position: relative;
+  width: 50px; }
+
+h2 {
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+  padding-top: 40px;
+  margin-bottom: 100px; }
+
+h2:after {
+  background: black;
+  bottom: -8px;
+  margin: auto;
+  content: "";
+  display: block;
+  height: 1px;
+  position: relative;
+  width: 50px; }
 
 h5 {
   margin-top: 0 !important;
@@ -60,7 +96,7 @@ h5 {
 footer {
   background-color: black;
   color: white;
-  height: 425px;
+  height: 325px;
   font-family: 'Source Sans Pro';
   color: #999999; }
 
@@ -98,8 +134,9 @@ h4 {
   margin-right: 50px; }
 
 .top-right,
+.top-mid,
 .top-left {
-  padding-top: 20px; }
+  padding-top: 15px; }
 
 .socials {
   margin-right: 20px;
@@ -115,7 +152,7 @@ h4 {
   margin-top: 0; }
 
 .footer-grid {
-  padding-top: 50px; }
+  padding-top: 40px; }
 
 .footer-client-name {
   font-family: 'Source Sans Pro', sans-serif;
@@ -123,7 +160,7 @@ h4 {
   color: #e5e5e5;
   letter-spacing: 15px;
   font-size: 40px;
-  margin-top: 0; }
+  margin-bottom: 38px; }
 
 .header {
   width: 100%;
@@ -204,40 +241,16 @@ h4 {
     margin-top: 100px; }
   100% {
     margin-top: 80px; } }
-.content {
-  height: 650px;
-  padding-top: 5px;
-  margin-bottom: 60px;
+.featured-product-content {
+  height: 704px;
   background-color: #f0e9e9; }
 
-.main-head {
-  height: 24px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: center;
-  color: #333333; }
+.white-checkered-hoodie {
+  width: 373px;
+  height: 360px; }
 
-.line {
-  display: block;
-  margin: auto;
-  width: 50px;
-  height: 1px;
-  background-color: #333333; }
-
-.featured-product {
-  display: block;
-  margin-left: 100px;
-  width: 1000px;
-  margin-top: 50px;
-  padding-bottom: 60px; }
-
-.hoodie-jeans-crop {
-  width: 370px;
+.female-yellow-shirt {
+  width: 570px;
   height: 360px; }
 
 .gender {
@@ -265,13 +278,12 @@ h4 {
 .content2 {
   margin-left: 30px; }
 
-.new-products {
+.new-collection-content {
+  height: 705px; }
+
+.new-collection {
   display: block;
-  margin-left: 70px;
-  width: 800px;
-  height: 450px;
-  margin-top: 70px;
-  padding-bottom: 60px; }
+  margin-top: 70px; }
 
 .description {
   font-family: 'Source Sans Pro';
@@ -280,7 +292,7 @@ h4 {
   text-align: center;
   margin-top: 0; }
 
-.denim-main-grid {
+.denim-collection-content {
   height: 552px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/vector-modern-abstract-geometry-triangle-pattern-black-white-seamless-geometric-background-subtle-pillow-bed-sheet-design-79029924.jpg); }
 
@@ -329,12 +341,8 @@ h4 {
 .blog-content {
   width: 570px; }
 
-.blog-article-grid {
-  margin-left: 100px;
-  margin-top: 4.375rem;
-  margin-bottom: 3.75rem;
-  width: 570px;
-  height: 373px; }
+.blog-article-collection {
+  height: 671px; }
 
 .date {
   font-family: 'Source Sans Pro', serif;
@@ -403,9 +411,9 @@ h4 {
 .copyright {
   background-color: #d7d7d7;
   color: #666666;
-  height: 85px;
+  padding-top: 30px;
+  height: 55px;
   font-family: 'Source Sans Pro', serif;
-  padding-top: 60px;
   text-align: center; }
 
 /* ABOUT PAGE 
@@ -437,8 +445,7 @@ a.extra-margin {
 .header2 {
   width: 100%;
   height: 445px;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 60px; }
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .heading2 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -467,8 +474,27 @@ a.extra-margin {
 .main {
   display: block; }
 
+.who-we-are-section {
+  height: 508px;
+  padding-top: 50px; }
+
 .who-we-are {
-  width: 600px; }
+  width: 600px;
+  height: 490px; }
+
+.team-heading {
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin-top: 0 !important;
+  padding-top: 70px; }
 
 p.employee {
   font-family: 'Source Sans Pro';
@@ -493,7 +519,14 @@ p.expertise {
   text-align: center;
   color: var(--warm-grey);
   margin-top: 0;
-  margin-bottom: 50px; }
+  color: #999999; }
+
+.connect {
+  text-align: center;
+  letter-spacing: 7px;
+  color: #555555;
+  font-size: 15px;
+  margin-top: 15px; }
 
 .statement,
 .company {
@@ -515,7 +548,7 @@ p.expertise {
 .details {
   text-align: left;
   color: #666666 !important;
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 0;
   font-family: 'Source Sans Pro';
   font-size: 15px;
@@ -523,10 +556,8 @@ p.expertise {
   line-height: 1.67;
   letter-spacing: normal; }
 
-.what-we-do {
-  display: block;
-  width: 900px;
-  height: 600px; }
+.what-we-do-section {
+  height: 590px; }
 
 /* CONTACT FORM 
 =======================================================================================
@@ -587,62 +618,35 @@ a.client-name-dark {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "top-left top-mid top-right"; }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas: "header header header" "content content content" "footer footer footer"; }
-
-.header {
-  grid-area: header; }
-
-.main {
-  grid-area: content; }
-
 img {
   width: 100%;
-  height: 100%;
-  object-fit: cover; }
+  height: 100%; }
 
 .featured-product {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "white-checkered-hoodie high-waisted-jeans milano-crop-top"; }
+  width: 71.875rem;
+  margin: auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr); }
 
-.white-checkered-hoodie {
-  grid-area: white-checkered-hoodie; }
-
-.high-waisted-jeans {
-  grid-area: high-waisted-jeans; }
-
-.milano-crop-top {
-  grid-area: milano-crop-top; }
-
-.new-products {
+.new-collection {
   display: grid;
-  width: 570px;
-  grid-gap: 30px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 373px);
-  grid-template-areas: "female-yellow-shirt male-colorful-sweater"; }
+  grid-gap: 10px;
+  width: 71.875rem;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr); }
 
-.female-yellow-shirt,
-.male-colorful-sweater {
-  width: 570px; }
-
-.denim-main-grid {
+.denim-collection-content {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "denim-looks-right-grid denim-looks-left-grid"; }
+  grid-template-columns: repeat(2, 1fr); }
 
-.blog-article-grid {
+.blog-article {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 373px);
-  grid-template-areas: "blog-pic blog-content"; }
+  width: 72.5rem;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr); }
 
 .footer-grid {
   display: grid;
@@ -651,10 +655,6 @@ img {
   grid-gap: 5%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "section-1 section-2"; }
-
-.footer-left {
-  grid-area: section-1;
-  place-items: start; }
 
 .footer-right {
   grid-area: section-2;
@@ -679,60 +679,45 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "top-left top-mid top-right"; }
 
-.wrapper {
+.who-we-are {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas: "header2 header2 header2" "content2 content2 content2" "footer2 footer2 footer2"; }
+  grid-gap: 20px;
+  width: 1220px;
+  margin: auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr); }
 
 .header2 {
   grid-area: header2; }
 
-.who-we-are {
-  display: grid;
-  margin-left: 50px;
-  margin-bottom: 80px;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 490px);
-  grid-template-areas: "statement company"; }
+.meet-our-team-section {
+  height: 627px; }
 
-.meet-our-team {
+.team {
   display: grid;
-  grid-gap: 30px;
-  display: block;
+  grid-gap: 20px;
+  width: 1143px;
   margin: auto;
-  grid-template-columns: 1fr 1fr 1fr  1fr;
-  grid-template-rows: repeat(1, auto);
-  grid-template-areas: "meet meet meet meet" "team team team team"; }
-
-.team {
-  display: grid;
-  grid-gap: 20px;
-  width: 270px;
-  margin-left: 100px;
   margin-top: 70px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(1, 305px);
-  grid-template-areas: "sipho nina brian gail"; }
+  grid-template-columns: repeat(4, 1fr); }
 
 .team {
-  height: 500px; }
+  height: 305px; }
 
 .employee-pics {
   width: 270px; }
 
 .what-we-do {
-  margin-left: 70px;
   display: grid;
+  margin: auto;
   grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 490px);
-  grid-template-areas: "company1 statement1"; }
+  grid-template-columns: repeat(2, 1fr);
+  width: 1220px; }
 
 .company-image,
 .statement2 {
-  width: 600px; }
+  width: 600px;
+  height: 490px; }
 
 .operation {
   display: grid;

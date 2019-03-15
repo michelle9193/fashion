@@ -1,4 +1,4 @@
-// Section abouve nav
+// Section above nav
 .top-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -6,86 +6,39 @@
         "top-left top-mid top-right"
 }
 
-// All content is wrapped in the container
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas:
-        "header header header"
-        "content content content"
-        "footer footer footer"
-}
-
-// Top section and nav is in the header
-.header{
-    grid-area: header;
-
-}
-
-.main {
-    grid-area: content;
-}
-
 img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    
 }
-
-
-// Featured products grid
 .featured-product {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "white-checkered-hoodie high-waisted-jeans milano-crop-top"
+    width: 71.875rem;
+    margin: auto;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.white-checkered-hoodie {
-    grid-area: white-checkered-hoodie;
-}
-
-.high-waisted-jeans {
-    grid-area: high-waisted-jeans;
-}
-
-.milano-crop-top {
-    grid-area: milano-crop-top;
-}
-
-
-.new-products {
+.new-collection {
     display: grid;
-    width: 570px;
-    grid-gap: 30px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1, 373px);
-    grid-template-areas: 
-    "female-yellow-shirt male-colorful-sweater"
+    grid-gap: 10px;
+    width: 71.875rem;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.female-yellow-shirt,
-.male-colorful-sweater {
-    width: 570px;
-}
-
-.denim-main-grid {
+.denim-collection-content {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "denim-looks-right-grid denim-looks-left-grid"
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.blog-article-grid {
+.blog-article {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1, 373px);
-    grid-template-areas: 
-    "blog-pic blog-content"
+    width: 72.5rem;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .footer-grid {
@@ -98,15 +51,6 @@ img {
     "section-1 section-2"
 }
 
-.footer-content {
-    
-}
-
-
-.footer-left {
-    grid-area: section-1;
-    place-items: start;
-}
 
 .footer-right {
     grid-area: section-2;
@@ -140,59 +84,35 @@ img {
         "top-left top-mid top-right"
 }
 
-.wrapper {
+.who-we-are {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas:
-        "header2 header2 header2"
-        "content2 content2 content2"
-        "footer2 footer2 footer2"
+    grid-gap: 20px;
+    width: 1220px;
+    margin: auto;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
 .header2 {
     grid-area: header2;
-
 }
 
-.who-we-are {
+.meet-our-team-section {
+    height: 627px;
+}
+.team {
     display: grid;
-    margin-left: 50px;
-    margin-bottom: 80px;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1, 490px);
-    grid-template-areas: 
-    "statement company"
-}
-
-.meet-our-team {
-    display: grid;
-    grid-gap: 30px;
-    display: block;
+    width: 1143px;
     margin: auto;
-    grid-template-columns: 1fr 1fr 1fr  1fr;
-    grid-template-rows: repeat(1, auto);
-    grid-template-areas: 
-    "meet meet meet meet"
-    "team team team team"
-}
-
-.team {
-    display: grid;
-    grid-gap: 20px;
-    width: 270px;
-    margin-left: 100px;
     margin-top: 70px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(1, 305px);
-    grid-template-areas:
-    "sipho nina brian gail"
+    grid-template-columns: repeat(4, 1fr);
+    
 }
 
 .team {
-    height: 500px;
+    height: 305px;
 }
 
 .employee-pics {
@@ -200,18 +120,17 @@ img {
 }
 
 .what-we-do {
-    margin-left: 70px;
     display: grid;
+    margin: auto;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1, 490px);
-    grid-template-areas: 
-    "company1 statement1"
+    grid-template-columns: repeat(2, 1fr);
+    width: 1220px;
 }
 
 .company-image, 
 .statement2 {
     width: 600px;
+    height: 490px;
 }
 
 .operation {
