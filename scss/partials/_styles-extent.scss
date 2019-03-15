@@ -170,7 +170,8 @@
 }
 
 .description {
-    @include description
+    @include description;
+    text-align: left;
 }
 
 .denim-collection-content {
@@ -237,7 +238,7 @@
     height: 671px;
 }
 
-.date {
+.blog-date {
     font-family: 'Source Sans Pro', serif;
     color: #c9c7c7;
     margin-top: 0;
@@ -357,6 +358,10 @@ a.extra-margin {
     color: #ffffff;
 }
 
+.heading2:after {
+    background: none;
+}
+
 .title2 {
     margin-bottom: 70px;
     text-align: center;
@@ -452,7 +457,8 @@ p.expertise {
 
 
 .what-we-do-section {
-    height: 590px;
+    height: 540px;
+    padding-top: 50px;
 }
 
 
@@ -487,11 +493,19 @@ ul.dark-font {
 }
 
 .dark-font li a {
+    font-weight: 600;
     padding: 0 20px;
     font-family: 'Dosis';
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    height: 12px;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #666666;
 }
 
 a.client-name-dark {

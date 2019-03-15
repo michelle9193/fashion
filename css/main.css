@@ -290,7 +290,8 @@ h4 {
   font-size: 15px;
   color: #999999;
   text-align: center;
-  margin-top: 0; }
+  margin-top: 0;
+  text-align: left; }
 
 .denim-collection-content {
   height: 552px;
@@ -344,7 +345,7 @@ h4 {
 .blog-article-collection {
   height: 671px; }
 
-.date {
+.blog-date {
   font-family: 'Source Sans Pro', serif;
   color: #c9c7c7;
   margin-top: 0;
@@ -457,6 +458,9 @@ a.extra-margin {
   text-align: center;
   color: #ffffff; }
 
+.heading2:after {
+  background: none; }
+
 .title2 {
   margin-bottom: 70px;
   text-align: center;
@@ -557,7 +561,8 @@ p.expertise {
   letter-spacing: normal; }
 
 .what-we-do-section {
-  height: 590px; }
+  height: 540px;
+  padding-top: 50px; }
 
 /* CONTACT FORM 
 =======================================================================================
@@ -585,11 +590,19 @@ ul.dark-font {
   float: right; }
 
 .dark-font li a {
+  font-weight: 600;
   padding: 0 20px;
   font-family: 'Dosis';
   text-decoration: none;
   text-transform: uppercase;
-  color: black; }
+  height: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666; }
 
 a.client-name-dark {
   font-family: 'Source Sans Pro', sans-serif;
