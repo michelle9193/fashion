@@ -347,10 +347,12 @@ h4 {
 
 .blog-date {
   font-family: 'Source Sans Pro', serif;
-  color: #c9c7c7;
+  color: #999999;
   margin-top: 0;
   letter-spacing: 1px;
-  font-size: 13px; }
+  font-size: 13px;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 15px; }
 
 .blog-title {
   margin-top: 20px;
@@ -368,10 +370,16 @@ h4 {
   font-size: 15px !important; }
 
 .blog-description {
+  padding: 20px 0;
   font-family: 'Source Sans Pro', serif;
   text-align: left;
   color: #666666;
-  font-size: 14px; }
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal; }
 
 .arrow-text,
 .arrow-right {
@@ -625,6 +633,19 @@ a.client-name-dark {
   height: 300px;
   margin-top: 70px;
   margin-bottom: 200px; }
+
+.read-more {
+  width: 67px;
+  height: 11px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #706259; }
 
 .top-section {
   display: grid;
