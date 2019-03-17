@@ -201,7 +201,8 @@ button {
   height: 650px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/adults-black-and-white-casual-1374542.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .search {
   margin-right: 150px;
@@ -234,6 +235,9 @@ button {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff; }
+
+.heading:after {
+  background: none; }
 
 .main-title {
   text-align: center;
@@ -294,7 +298,8 @@ button {
   font-family: 'Source Sans Pro';
   font-size: 15px;
   line-height: 1.92;
-  letter-spacing: 2.5px; }
+  letter-spacing: 2.5px;
+  margin-top: 10px; }
 
 .title {
   margin-top: 20px;
@@ -326,6 +331,13 @@ button {
   text-align: center;
   margin-top: 0;
   text-align: left; }
+
+.price {
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  color: #999999;
+  text-align: center;
+  margin-top: 0; }
 
 .denim-collection-content {
   height: 552px;

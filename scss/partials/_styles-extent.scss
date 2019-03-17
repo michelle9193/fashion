@@ -65,6 +65,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/adults-black-and-white-casual-1374542.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .search {
@@ -100,6 +101,10 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+}
+
+.heading:after {
+    background: none;
 }
 
 .main-title {
@@ -172,6 +177,10 @@
 .description {
     @include description;
     text-align: left;
+}
+
+.price {
+    @include description;
 }
 
 .denim-collection-content {
