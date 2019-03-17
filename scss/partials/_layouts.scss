@@ -21,7 +21,7 @@ img {
 
 .new-collection {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 0.625rem;
     width: 71.875rem;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
@@ -29,13 +29,13 @@ img {
 
 .denim-collection-content {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .blog-article {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
     width: 72.5rem;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
@@ -63,8 +63,8 @@ img {
 
 .insta-pics {
     display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(4, 50px);
+    grid-gap: 0.3125rem;
+    grid-template-columns: repeat(4, 3.125rem);
     grid-template-areas: 
     "insta-pics1 insta-pics2 insta-pics3 insta-pics4"
     "insta-pics5 insta-pics6 insta-pics7 insta-pics7"
@@ -86,8 +86,8 @@ img {
 
 .who-we-are {
     display: grid;
-    grid-gap: 20px;
-    width: 1220px;
+    grid-gap: 1.25rem;
+    width: 76.25rem;
     margin: auto;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
@@ -99,44 +99,44 @@ img {
 }
 
 .meet-our-team-section {
-    height: 627px;
+    height: 39.1875rem;
 }
 .team {
     display: grid;
-    grid-gap: 20px;
-    width: 1143px;
+    grid-gap: 1.25rem;
+    width: 71.4375rem;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 4.375rem;
     grid-template-columns: repeat(4, 1fr);
     
 }
 
 .team {
-    height: 305px;
+    height: 19.0625rem;
 }
 
 .employee-pics {
-    width: 270px;
-    height: 305px;
+    width: 16.875rem;
+    height: 19.0625rem;
 }
 
 .what-we-do {
     display: grid;
     margin: auto;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
     grid-template-columns: repeat(2, 1fr);
-    width: 1220px;
+    width: 76.25rem;
 }
 
 .company-image, 
 .statement2 {
-    width: 600px;
-    height: 490px;
+    width: 37.5rem;
+    height: 30.625rem;
 }
 
 .operation {
     display: grid;
-    width: 1170px;
+    width: 73.125rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(1, auto);
 }
@@ -159,7 +159,7 @@ img {
 .form {
     grid-column: 1 / -1;
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 1.875rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "name surname"
@@ -179,17 +179,35 @@ img {
 
 .blog-grid {
     display: grid;
-    grid-gap: 20px;
+    padding-top: 1.25rem;
+    grid-gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "word-blog share"
+}
+
+.pad-right {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.0625rem;
+}
+
+
+
+.word-blog,
+.share {
+    margin: auto;
+    display: inline;
+    text-align: left;
 }
 
 .collections {
     display: grid;
-    grid-gap: 20px;
+    width: 71.875rem;
+    height: 58rem;
+    grid-gap: 1.25rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-    "blogs1 blogs2 blogs3"
-    "blogs4 blogs5 blogs6"
+    "blogs1 blogs1 blogs1"
+    "blogs2 blogs2 blogs2"
 }

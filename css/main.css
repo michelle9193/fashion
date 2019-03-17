@@ -32,7 +32,7 @@ li {
   font-family: 'Raleway'; }
 
 li a {
-  padding: 0 20px;
+  padding: 0 1.25rem;
   font-family: 'Dosis';
   text-decoration: none;
   text-transform: uppercase;
@@ -42,9 +42,9 @@ a {
   text-decoration: none; }
 
 h1 {
-  height: 24px;
+  height: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -52,22 +52,22 @@ h1 {
   letter-spacing: normal;
   text-align: center;
   color: #333333;
-  margin: 40px 0; }
+  margin: 2.5rem 0; }
 
 h1:after {
   background: black;
-  bottom: -8px;
+  bottom: -0.5rem;
   margin: auto;
   content: "";
   display: block;
-  height: 1px;
+  height: 0.0625rem;
   position: relative;
-  width: 50px; }
+  width: 3.125rem; }
 
 h2 {
-  height: 24px;
+  height: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -76,18 +76,18 @@ h2 {
   text-align: center;
   color: #333333;
   text-transform: uppercase;
-  padding-top: 40px;
-  margin-bottom: 100px; }
+  padding-top: 2.5rem;
+  margin-bottom: 6.25rem; }
 
 h2:after {
   background: black;
-  bottom: -8px;
+  bottom: -0.5rem;
   margin: auto;
   content: "";
   display: block;
-  height: 1px;
+  height: 0.0625rem;
   position: relative;
-  width: 50px; }
+  width: 3.125rem; }
 
 h5 {
   margin-top: 0 !important;
@@ -96,7 +96,7 @@ h5 {
 footer {
   background-color: black;
   color: white;
-  height: 325px;
+  height: 20.3125rem;
   font-family: 'Source Sans Pro';
   color: #999999; }
 
@@ -104,13 +104,13 @@ h4 {
   margin-top: 0;
   color: #e5e5e5;
   text-transform: uppercase;
-  margin-bottom: 60px; }
+  margin-bottom: 3.75rem; }
 
 /* CONTACT PAGE 
 ======================================================================= */
 input {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -118,42 +118,42 @@ input {
   letter-spacing: normal;
   text-align: left;
   color: #888888;
-  height: 45px;
-  width: 566px; }
+  height: 2.8125rem;
+  width: 35.375rem; }
 
 textarea {
-  height: 150px; }
+  height: 9.375rem; }
 
 /* Web Fonts -------------------- */
 button {
-  width: 155px;
-  height: 40px;
+  width: 9.6875rem;
+  height: 2.5rem;
   background: #ac907f;
   border: none; }
 
 .send-mail {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.4;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.0938rem;
   text-align: center;
   text-transform: uppercase;
   color: white; }
 
 .nav-home {
-  padding-top: 10px;
-  margin-bottom: 130px;
+  padding-top: 0.625rem;
+  margin-bottom: 8.125rem;
   text-align: center;
   font-weight: normal;
   color: black;
-  height: 60px; }
+  height: 3.75rem; }
 
 .top-section {
   width: 100%;
-  height: 53px;
+  height: 3.3125rem;
   background-color: #666666;
   color: #ffffff;
   display: block;
@@ -165,71 +165,70 @@ button {
 
 .options {
   display: inline;
-  margin-right: 50px; }
+  margin-right: 3.125rem; }
 
 .top-right,
 .top-mid,
 .top-left {
-  padding-top: 15px; }
+  padding-top: 0.9375rem; }
 
 .socials {
-  margin-right: 20px;
-  display: inline; }
+  margin-right: 1.25rem; }
 
 .client-name-light {
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   color: #e5e5e5;
-  letter-spacing: 15px;
-  font-size: 30px;
-  margin-bottom: 30px;
+  letter-spacing: 0.9375rem;
+  font-size: 1.875rem;
+  margin-bottom: 1.875rem;
   margin-top: 0; }
 
 .footer-grid {
-  padding-top: 40px; }
+  padding-top: 2.5rem; }
 
 .footer-client-name {
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   color: #e5e5e5;
-  letter-spacing: 15px;
-  font-size: 40px;
-  margin-bottom: 38px; }
+  letter-spacing: 0.9375rem;
+  font-size: 2.5rem;
+  margin-bottom: 2.375rem; }
 
 .header {
   width: 100%;
-  height: 650px;
+  height: 40.625rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/adults-black-and-white-casual-1374542.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
 
 .search {
-  margin-right: 150px;
-  width: 50px;
-  height: 23px;
-  font-size: 15px;
+  margin-right: 9.375rem;
+  width: 3.125rem;
+  height: 1.4375rem;
+  font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.0688rem;
   text-align: left;
   color: #ffffff; }
 
 .cart {
-  margin-left: 150px;
-  width: 21px;
-  height: 18px;
-  font-size: 15px;
-  letter-spacing: 1.1px;
+  margin-left: 9.375rem;
+  width: 1.3125rem;
+  height: 1.125rem;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0688rem;
   text-align: left;
   color: #ffffff; }
 
 .heading {
   font-family: 'Source Sans Pro', sans-serif;
-  height: 38px;
-  font-size: 50px;
+  height: 2.375rem;
+  font-size: 3.125rem;
   font-weight: normal;
   line-height: 0.96;
   letter-spacing: normal;
@@ -241,10 +240,10 @@ button {
 
 .main-title {
   text-align: center;
-  margin-bottom: 65px;
-  height: 39px;
+  margin-bottom: 4.0625rem;
+  height: 2.4375rem;
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -254,9 +253,9 @@ button {
   color: #e6e6e6; }
 
 .topbtn {
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
+  width: 9.375rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
   background-color: #a88d7b;
   color: white;
   text-transform: uppercase;
@@ -265,49 +264,49 @@ button {
   border: none; }
 
 .down-arrow {
-  height: 16px;
+  height: 1rem;
   font-family: 'Source Sans Pro';
-  font-size: 30px;
+  font-size: 1.875rem;
   text-align: center;
   color: #ffffff;
   animation: move 1s ease infinite; }
 
 @keyframes move {
   0% {
-    margin-top: 80px; }
+    margin-top: 5rem; }
   50% {
-    margin-top: 100px; }
+    margin-top: 6.25rem; }
   100% {
-    margin-top: 80px; } }
+    margin-top: 5rem; } }
 .featured-product-content {
-  height: 704px;
+  height: 44rem;
   background-color: #f0e9e9; }
 
 .white-checkered-hoodie {
-  width: 373px;
-  height: 360px; }
+  width: 23.3125rem;
+  height: 22.5rem; }
 
 .female-yellow-shirt {
-  width: 570px;
-  height: 360px; }
+  width: 35.625rem;
+  height: 22.5rem; }
 
 .gender {
   font-weight: normal;
   color: #a88d7b;
   text-align: center;
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.92;
-  letter-spacing: 2.5px;
-  margin-top: 10px; }
+  letter-spacing: 0.1563rem;
+  margin-top: 0.625rem; }
 
 .title {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   margin-bottom: 0;
   text-align: center;
-  height: 30px;
+  height: 1.875rem;
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: bold;
   line-height: 1.67;
   letter-spacing: normal;
@@ -315,18 +314,18 @@ button {
   color: #333333; }
 
 .content2 {
-  margin-left: 30px; }
+  margin-left: 1.875rem; }
 
 .new-collection-content {
-  height: 705px; }
+  height: 44.0625rem; }
 
 .new-collection {
   display: block;
-  margin-top: 70px; }
+  margin-top: 4.375rem; }
 
 .description {
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #999999;
   text-align: center;
   margin-top: 0;
@@ -334,13 +333,13 @@ button {
 
 .price {
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #999999;
   text-align: center;
   margin-top: 0; }
 
 .denim-collection-content {
-  height: 552px;
+  height: 34.5rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/vector-modern-abstract-geometry-triangle-pattern-black-white-seamless-geometric-background-subtle-pillow-bed-sheet-design-79029924.jpg); }
 
 .denim-looks-left-grid {
@@ -349,36 +348,36 @@ button {
   display: inline; }
 
 .denim-looks-right-grid {
-  padding-top: 10px;
-  height: 300px;
-  width: 400px;
+  padding-top: 0.625rem;
+  height: 18.75rem;
+  width: 25rem;
   margin: auto;
   display: block; }
 
 .denim-looks {
-  font-size: 48px;
+  font-size: 3rem;
   font-family: 'Dosis';
   font-stretch: normal;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 30px; }
+  margin-bottom: 1.875rem; }
 
 .denim-paragraph {
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.6;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   text-align: center;
   color: #ffffff;
-  margin: 0 40px 40px 40px;
+  margin: 0 2.5rem 2.5rem 2.5rem;
   width: auto; }
 
 .view-more {
   color: #ffffff;
   font-family: 'Source Sans Pro', serif;
   text-transform: uppercase;
-  width: 150px;
-  height: 40px;
+  width: 9.375rem;
+  height: 2.5rem;
   background-color: #a88d7b;
   display: block;
   margin: auto;
@@ -386,41 +385,41 @@ button {
 
 .blog-pic,
 .blog-content {
-  width: 570px; }
+  width: 35.625rem; }
 
 .blog-article-collection {
-  height: 671px; }
+  height: 41.9375rem; }
 
 .blog-date {
   font-family: 'Source Sans Pro', serif;
   color: #999999;
   margin-top: 0;
-  letter-spacing: 1px;
-  font-size: 13px;
-  border-bottom: 1px solid #999999;
-  padding-bottom: 15px; }
+  letter-spacing: 0.0625rem;
+  font-size: 0.8125rem;
+  border-bottom: 0.0625rem solid #999999;
+  padding-bottom: 0.9375rem; }
 
 .blog-title {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   margin-bottom: 0;
   text-align: center;
-  height: 30px;
+  height: 1.875rem;
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: bold;
   line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
   color: #333333;
-  letter-spacing: 1px !important;
-  font-size: 15px !important; }
+  letter-spacing: 0.0625rem !important;
+  font-size: 0.9375rem !important; }
 
 .blog-description {
-  padding: 20px 0;
+  padding: 1.25rem 0;
   font-family: 'Source Sans Pro', serif;
   text-align: left;
   color: #666666;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -432,42 +431,42 @@ button {
   font-family: 'Source Sans Pro', serif;
   color: #a88d7b;
   text-transform: uppercase;
-  margin-bottom: 2px;
-  font-size: 13px; }
+  margin-bottom: 0.125rem;
+  font-size: 0.8125rem; }
 
 .arrow-right {
-  margin-left: 8px; }
+  margin-left: 0.5rem; }
 
 .insta-pics {
-  height: 120px; }
+  height: 7.5rem; }
 
 .location,
 .phone,
 .email {
   color: #999999;
   font-family: 'Source Sans Pro', serif;
-  margin-bottom: 30px;
-  letter-spacing: 2px; }
+  margin-bottom: 1.875rem;
+  letter-spacing: 0.125rem; }
 
 .links-on-footer a {
   text-decoration: none;
   font-family: 'Source Sans Pro', serif;
   color: #999999;
   display: block;
-  margin-bottom: 30px; }
+  margin-bottom: 1.875rem; }
 
 .shop-link-on-footer a {
   text-decoration: none;
   font-family: 'Source Sans Pro', serif;
   color: #999999;
   display: block;
-  margin-bottom: 30px; }
+  margin-bottom: 1.875rem; }
 
 .copyright {
   background-color: #d7d7d7;
   color: #666666;
-  padding-top: 30px;
-  height: 55px;
+  padding-top: 1.875rem;
+  height: 3.4375rem;
   font-family: 'Source Sans Pro', serif;
   text-align: center; }
 
@@ -475,7 +474,7 @@ button {
 ======================================================================= */
 .top-section2 {
   width: 100%;
-  height: 53px;
+  height: 3.3125rem;
   background-color: #eeeeee;
   color: #999999;
   display: block;
@@ -487,25 +486,25 @@ button {
 
 .nav-default {
   background-color: #ffffff;
-  height: 70px;
-  padding-top: 20px;
-  margin-bottom: 160px;
+  height: 4.375rem;
+  padding-top: 1.25rem;
+  margin-bottom: 10rem;
   text-align: center;
   font-weight: normal;
   color: black; }
 
 a.extra-margin {
-  margin-top: 10px; }
+  margin-top: 0.625rem; }
 
 .header2 {
   width: 100%;
-  height: 445px;
+  height: 27.8125rem;
   background-color: rgba(0, 0, 0, 0.5); }
 
 .heading2 {
   font-family: 'Source Sans Pro', sans-serif;
-  height: 38px;
-  font-size: 50px;
+  height: 2.375rem;
+  font-size: 3.125rem;
   font-weight: normal;
   line-height: 0.96;
   letter-spacing: normal;
@@ -516,11 +515,11 @@ a.extra-margin {
   background: none; }
 
 .title2 {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
   text-align: center;
-  height: 39px;
+  height: 2.4375rem;
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -533,17 +532,17 @@ a.extra-margin {
   display: block; }
 
 .who-we-are-section {
-  height: 508px;
-  padding-top: 50px; }
+  height: 31.75rem;
+  padding-top: 3.125rem; }
 
 .who-we-are {
-  width: 600px;
-  height: 490px; }
+  width: 37.5rem;
+  height: 30.625rem; }
 
 .team-heading {
-  height: 24px;
+  height: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -552,23 +551,23 @@ a.extra-margin {
   text-align: center;
   color: #333333;
   margin-top: 0 !important;
-  padding-top: 70px; }
+  padding-top: 4.375rem; }
 
 p.employee {
   font-family: 'Source Sans Pro';
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   line-height: 2.4;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   text-align: center;
   color: #333333;
   margin: 0; }
 
 p.expertise {
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -581,20 +580,20 @@ p.expertise {
 
 .connect {
   text-align: center;
-  letter-spacing: 7px;
+  letter-spacing: 0.4375rem;
   color: #555555;
-  font-size: 15px;
-  margin-top: 15px; }
+  font-size: 0.9375rem;
+  margin-top: 0.9375rem; }
 
 .statement,
 .company {
-  width: 600px; }
+  width: 37.5rem; }
 
 .main-head2 {
   margin-top: 0 !important;
-  height: 24px;
+  height: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -606,17 +605,17 @@ p.expertise {
 .details {
   text-align: left;
   color: #666666 !important;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   margin-bottom: 0;
   font-family: 'Source Sans Pro';
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: bold;
   line-height: 1.67;
   letter-spacing: normal; }
 
 .what-we-do-section {
-  height: 540px;
-  padding-top: 50px; }
+  height: 33.75rem;
+  padding-top: 3.125rem; }
 
 /* CONTACT FORM 
 =======================================================================================
@@ -625,9 +624,9 @@ p.expertise {
   background-color: #e6e6e6;
   display: block;
   margin: auto;
-  height: 200px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  height: 12.5rem;
+  margin-top: 4.375rem;
+  margin-bottom: 4.375rem;
   text-align: center; }
 
 .address,
@@ -638,9 +637,9 @@ p.expertise {
   margin: auto; }
 
 #icons {
-  width: 22px;
-  height: 37px;
-  font-size: 36px;
+  width: 1.375rem;
+  height: 2.3125rem;
+  font-size: 2.25rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -650,22 +649,22 @@ p.expertise {
   color: #090803; }
 
 .op-title {
-  height: 18px;
+  height: 1.125rem;
   font-family: "Source Sans Pro";
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   line-height: 1;
-  letter-spacing: 1.3px;
+  letter-spacing: 0.0813rem;
   text-align: center;
   color: #333333; }
 
 .op-details {
-  padding-top: 30px;
-  height: 16px;
+  padding-top: 1.875rem;
+  height: 1rem;
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -676,9 +675,9 @@ p.expertise {
 
 .telephone,
 .chat {
-  height: 21px;
+  height: 1.3125rem;
   font-family: SourceSansPro;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -690,55 +689,114 @@ p.expertise {
 .form {
   display: block;
   margin: auto;
-  width: 1170px;
-  margin-bottom: 80px; }
+  width: 73.125rem;
+  margin-bottom: 5rem; }
 
 ul.dark-font {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   float: right; }
 
 .dark-font li a {
   font-weight: 600;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   font-family: 'Dosis';
   text-decoration: none;
   text-transform: uppercase;
-  height: 12px;
-  font-size: 16px;
+  height: 0.75rem;
+  font-size: 1rem;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.05rem;
   text-align: left;
   color: #666666; }
 
 a.client-name-dark {
+  line-height: 2.1;
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 15px;
-  font-size: 30px;
-  margin-bottom: 30px;
+  letter-spacing: 0.9375rem;
+  font-size: 1.875rem;
+  margin-bottom: 1.875rem;
   color: black; }
 
 /* BLOG PAGE 
 ==============================================================
 */
+.blog-grid {
+  border-bottom: 0.0625rem black solid;
+  width: 49.9375rem;
+  display: block;
+  margin: auto;
+  height: 2.5rem; }
+
+.word-blog,
+.share,
+.share-icons {
+  margin: auto;
+  display: inline;
+  height: 0.9375rem;
+  font-family: 'Source Sans Pro';
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #666666; }
+
+.word-blog {
+  text-align: left; }
+
+.share {
+  text-align: right;
+  margin-right: 0 !important; }
+
+.pad-right {
+  margin-right: 0 !important;
+  margin-top: 0 !important; }
+
+.share-icons {
+  margin: 0 auto;
+  text-align: right; }
+
+.blogs1,
+.blogs2 {
+  width: 23.125rem; }
+
+.blogs2 {
+  margin-top: 50px; }
+
 .secondary {
-  margin-bottom: 550px; }
+  margin-bottom: 9.375rem; }
 
 .collections {
   display: block;
   margin: auto;
-  width: 900px;
-  height: 300px;
-  margin-top: 70px;
-  margin-bottom: 200px; }
+  margin-top: 4.375rem; }
+
+.blog-article-title {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  text-align: center;
+  height: 1.875rem;
+  font-family: 'Source Sans Pro';
+  font-size: 0.9375rem;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  text-align: left; }
+
+.blog-image {
+  height: 14.0625rem; }
 
 .read-more {
-  width: 67px;
-  height: 11px;
+  width: 4.1875rem;
+  height: 0.6875rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -765,19 +823,19 @@ img {
 
 .new-collection {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 0.625rem;
   width: 71.875rem;
   margin: auto;
   grid-template-columns: repeat(2, 1fr); }
 
 .denim-collection-content {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 1.25rem;
   grid-template-columns: repeat(2, 1fr); }
 
 .blog-article {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 1.25rem;
   width: 72.5rem;
   margin: auto;
   grid-template-columns: repeat(2, 1fr); }
@@ -799,8 +857,8 @@ img {
 
 .insta-pics {
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(4, 50px);
+  grid-gap: 0.3125rem;
+  grid-template-columns: repeat(4, 3.125rem);
   grid-template-areas: "insta-pics1 insta-pics2 insta-pics3 insta-pics4" "insta-pics5 insta-pics6 insta-pics7 insta-pics7"; }
 
 .copyright {
@@ -815,8 +873,8 @@ img {
 
 .who-we-are {
   display: grid;
-  grid-gap: 20px;
-  width: 1220px;
+  grid-gap: 1.25rem;
+  width: 76.25rem;
   margin: auto;
   grid-gap: 1rem;
   grid-template-columns: repeat(2, 1fr); }
@@ -825,38 +883,38 @@ img {
   grid-area: header2; }
 
 .meet-our-team-section {
-  height: 627px; }
+  height: 39.1875rem; }
 
 .team {
   display: grid;
-  grid-gap: 20px;
-  width: 1143px;
+  grid-gap: 1.25rem;
+  width: 71.4375rem;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 4.375rem;
   grid-template-columns: repeat(4, 1fr); }
 
 .team {
-  height: 305px; }
+  height: 19.0625rem; }
 
 .employee-pics {
-  width: 270px;
-  height: 305px; }
+  width: 16.875rem;
+  height: 19.0625rem; }
 
 .what-we-do {
   display: grid;
   margin: auto;
-  grid-gap: 20px;
+  grid-gap: 1.25rem;
   grid-template-columns: repeat(2, 1fr);
-  width: 1220px; }
+  width: 76.25rem; }
 
 .company-image,
 .statement2 {
-  width: 600px;
-  height: 490px; }
+  width: 37.5rem;
+  height: 30.625rem; }
 
 .operation {
   display: grid;
-  width: 1170px;
+  width: 73.125rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(1, auto); }
 
@@ -875,7 +933,7 @@ img {
 .form {
   grid-column: 1 / -1;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 1.875rem;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "name surname" "phone subject" "message message"; }
 
@@ -887,14 +945,29 @@ img {
 */
 .blog-grid {
   display: grid;
-  grid-gap: 20px;
+  padding-top: 1.25rem;
+  grid-gap: 1.25rem;
+  grid-template-columns: 1fr 1fr; }
+
+.pad-right {
+  display: grid;
+  margin: auto;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "word-blog share"; }
+  grid-template-rows: 1fr;
+  grid-gap: 0.0625rem; }
+
+.word-blog,
+.share {
+  margin: auto;
+  display: inline;
+  text-align: left; }
 
 .collections {
   display: grid;
-  grid-gap: 20px;
+  width: 71.875rem;
+  height: 58rem;
+  grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "blogs1 blogs2 blogs3" "blogs4 blogs5 blogs6"; }
+  grid-template-areas: "blogs1 blogs1 blogs1" "blogs2 blogs2 blogs2"; }
 
 /*# sourceMappingURL=main.css.map */

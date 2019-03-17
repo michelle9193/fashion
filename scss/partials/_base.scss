@@ -39,7 +39,7 @@ ul {
 
 
 li a {
-    padding: 0 20px;
+    padding: 0 1.25rem;
     font-family: 'Dosis';
     text-decoration: none;
     text-transform: uppercase;
@@ -51,37 +51,37 @@ a {
 }
 h1 {
     @include main-headings;
-    margin: 40px 0;
+    margin: 2.5rem 0;
 }
 
 h1:after {
     background: black;
-    bottom: -8px;
+    bottom: -0.5rem;
     margin: auto;
     content: "";
     display: block;
-    height: 1px;
+    height: 0.0625rem;
     position: relative;
-    width: 50px;
+    width: 3.125rem;
 }
 
 h2 {
     @include main-headings;
     text-transform: uppercase;
-    padding-top: 40px;
-    margin-bottom: 100px;
+    padding-top: 2.5rem;
+    margin-bottom: 6.25rem;
 
 }
 
 h2:after {
     background: black;
-    bottom: -8px;
+    bottom: -0.5rem;
     margin: auto;
     content: "";
     display: block;
-    height: 1px;
+    height: 0.0625rem;
     position: relative;
-    width: 50px;
+    width: 3.125rem;
 }
 
 h5 {
@@ -92,7 +92,7 @@ h5 {
 footer {
     background-color: black;
     color: white;
-    height: 325px;
+    height: 20.3125rem;
     font-family: 'Source Sans Pro';
     color: #999999;
 
@@ -102,7 +102,7 @@ h4 {
     margin-top: 0;
     color: #e5e5e5;
     text-transform: uppercase;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 
@@ -112,7 +112,7 @@ h4 {
 
 input {
     font-family: "Source Sans Pro";
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -120,11 +120,11 @@ input {
     letter-spacing: normal;
     text-align: left;
     color: #888888;
-    height: 45px;
-    width: 566px;
+    height: 2.8125rem;
+    width: 35.375rem;
 }
 
 
 textarea {
-    height: 150px;
+    height: 9.375rem;
 }
