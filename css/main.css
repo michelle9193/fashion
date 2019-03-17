@@ -839,7 +839,8 @@ img {
   height: 305px; }
 
 .employee-pics {
-  width: 270px; }
+  width: 270px;
+  height: 305px; }
 
 .what-we-do {
   display: grid;
