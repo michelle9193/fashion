@@ -481,22 +481,81 @@ p.expertise {
     background-color: #e6e6e6;
     display: block;
     margin: auto;
-    width: 900px;
-    height: 150px;
+    height: 200px;
     margin-top: 70px;
     margin-bottom: 70px;
     text-align: center;
-    padding-top: 20px
+}
+
+.address,
+.telephone,
+.chat,
+.hours {
+    display: block;
+    margin: auto;
+}
+
+#icons {
+    width: 22px;
+    height: 37px;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #090803;
+}
+
+.op-title {
+    height: 18px;
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #333333;
+}
+
+.op-details {
+    padding-top: 30px;
+    height: 16px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+}
+
+.telephone,
+.chat {
+    height: 21px;
+    font-family: SourceSansPro;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
 }
 
 .form {
-    margin: 120px;
+    display: block;
+    margin: auto;
+    width: 1170px;
+    margin-bottom: 80px;
 }
 
-input {
-    height: 40px;
-    width: 570px;
-}
 
 ul.dark-font {
     margin-top: 20px;

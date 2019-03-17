@@ -135,19 +135,30 @@ img {
 
 .operation {
     display: grid;
-    grid-gap: 20px;
+    width: 1170px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(1, auto);
-    grid-template-areas: 
-    "address telephone hours"
 }
 
+.address,
+.hours {
+    grid-row: span 2;
+}
 
+.telephone {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.chat {
+    grid-column: 2;
+    grid-row: 2;
+}
 
 .form {
     grid-column: 1 / -1;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "name surname"

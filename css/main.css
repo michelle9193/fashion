@@ -106,9 +106,43 @@ h4 {
   text-transform: uppercase;
   margin-bottom: 60px; }
 
-/* ABOUT PAGE 
+/* CONTACT PAGE 
 ======================================================================= */
+input {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #888888;
+  height: 45px;
+  width: 566px; }
+
+textarea {
+  height: 150px; }
+
 /* Web Fonts -------------------- */
+button {
+  width: 155px;
+  height: 40px;
+  background: #ac907f;
+  border: none; }
+
+.send-mail {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white; }
+
 .nav-home {
   padding-top: 10px;
   margin-bottom: 130px;
@@ -579,19 +613,73 @@ p.expertise {
   background-color: #e6e6e6;
   display: block;
   margin: auto;
-  width: 900px;
-  height: 150px;
+  height: 200px;
   margin-top: 70px;
   margin-bottom: 70px;
+  text-align: center; }
+
+.address,
+.telephone,
+.chat,
+.hours {
+  display: block;
+  margin: auto; }
+
+#icons {
+  width: 22px;
+  height: 37px;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.58;
+  letter-spacing: normal;
   text-align: center;
-  padding-top: 20px; }
+  color: #090803; }
+
+.op-title {
+  height: 18px;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #333333; }
+
+.op-details {
+  padding-top: 30px;
+  height: 16px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666; }
+
+.telephone,
+.chat {
+  height: 21px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666; }
 
 .form {
-  margin: 120px; }
-
-input {
-  height: 40px;
-  width: 570px; }
+  display: block;
+  margin: auto;
+  width: 1170px;
+  margin-bottom: 80px; }
 
 ul.dark-font {
   margin-top: 20px;
@@ -755,15 +843,26 @@ img {
 
 .operation {
   display: grid;
-  grid-gap: 20px;
+  width: 1170px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(1, auto);
-  grid-template-areas: "address telephone hours"; }
+  grid-template-rows: repeat(1, auto); }
+
+.address,
+.hours {
+  grid-row: span 2; }
+
+.telephone {
+  grid-column: 2;
+  grid-row: 1; }
+
+.chat {
+  grid-column: 2;
+  grid-row: 2; }
 
 .form {
   grid-column: 1 / -1;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "name surname" "phone subject" "message message"; }
 

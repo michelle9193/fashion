@@ -4,6 +4,24 @@
 
 @import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css';
 
+
+// Send Mail Button on Contact Page
 button {
-    
+    width: 155px;
+    height: 40px;
+    background: #ac907f;
+    border: none;
+} 
+
+.send-mail {
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
 }
