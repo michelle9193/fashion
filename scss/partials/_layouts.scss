@@ -2,8 +2,6 @@
 .top-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-        "top-left top-mid top-right"
 }
 
 img {
@@ -23,6 +21,7 @@ img {
     display: grid;
     grid-gap: 0.625rem;
     width: 71.875rem;
+    margin-top: 4.375rem;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -33,6 +32,8 @@ img {
     grid-template-columns: repeat(2, 1fr);
 }
 
+
+// Blog article grid inside blog article content
 .blog-article {
     display: grid;
     grid-gap: 1.25rem;

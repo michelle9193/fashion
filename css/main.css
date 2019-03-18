@@ -13,7 +13,7 @@ select {
   background-color: transparent;
   color: white; }
 
-div.socials {
+.socials {
   display: inline; }
 
 div.search,
@@ -97,7 +97,6 @@ footer {
   background-color: black;
   color: white;
   height: 20.3125rem;
-  font-family: 'Source Sans Pro';
   color: #999999; }
 
 h4 {
@@ -109,7 +108,6 @@ h4 {
 /* CONTACT PAGE 
 ======================================================================= */
 input {
-  font-family: "Source Sans Pro";
   font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
@@ -143,14 +141,6 @@ button {
   text-transform: uppercase;
   color: white; }
 
-.nav-home {
-  padding-top: 0.625rem;
-  margin-bottom: 8.125rem;
-  text-align: center;
-  font-weight: normal;
-  color: black;
-  height: 3.75rem; }
-
 .top-section {
   width: 100%;
   height: 3.3125rem;
@@ -158,46 +148,24 @@ button {
   color: #ffffff;
   display: block;
   margin: auto;
-  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   text-transform: uppercase;
   top: 0; }
 
-.options {
+.top-left,
+.top-right,
+.top-mid {
+  padding-top: 0.9375rem; }
+
+.lang,
+.currency {
   display: inline;
   margin-right: 3.125rem; }
 
-.top-right,
-.top-mid,
-.top-left {
-  padding-top: 0.9375rem; }
-
 .home-socials {
   display: inline;
-  padding-left: 1.25rem; }
-
-.socials {
+  padding-left: 1.25rem;
   margin-right: 1.25rem; }
-
-.client-name-light {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-transform: uppercase;
-  color: #e5e5e5;
-  letter-spacing: 0.9375rem;
-  font-size: 1.875rem;
-  margin-bottom: 1.875rem;
-  margin-top: 0; }
-
-.footer-grid {
-  padding-top: 2.5rem; }
-
-.footer-client-name {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-transform: uppercase;
-  color: #e5e5e5;
-  letter-spacing: 0.9375rem;
-  font-size: 2.5rem;
-  margin-bottom: 2.375rem; }
 
 .header {
   width: 100%;
@@ -206,6 +174,14 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+
+.nav-on-home {
+  padding-top: 0.625rem;
+  margin-bottom: 8.125rem;
+  text-align: center;
+  font-weight: normal;
+  color: black;
+  height: 3.75rem; }
 
 .search {
   margin-right: 9.375rem;
@@ -220,6 +196,14 @@ button {
   text-align: left;
   color: #ffffff; }
 
+.client-name-light {
+  text-transform: uppercase;
+  color: #e5e5e5;
+  letter-spacing: 0.9375rem;
+  font-size: 1.875rem;
+  margin-bottom: 1.875rem;
+  margin-top: 0; }
+
 .cart {
   margin-left: 9.375rem;
   width: 1.3125rem;
@@ -230,7 +214,6 @@ button {
   color: #ffffff; }
 
 .heading {
-  font-family: 'Source Sans Pro', sans-serif;
   height: 2.375rem;
   font-size: 3.125rem;
   font-weight: normal;
@@ -269,7 +252,6 @@ button {
 
 .down-arrow {
   height: 1rem;
-  font-family: 'Source Sans Pro';
   font-size: 1.875rem;
   text-align: center;
   color: #ffffff;
@@ -286,23 +268,9 @@ button {
   height: 44rem;
   background-color: #f0e9e9; }
 
-.white-checkered-hoodie {
+.featured-product-clothing {
   width: 23.3125rem;
   height: 22.5rem; }
-
-.female-yellow-shirt {
-  width: 35.625rem;
-  height: 22.5rem; }
-
-.gender {
-  font-weight: normal;
-  color: #a88d7b;
-  text-align: center;
-  font-family: 'Source Sans Pro';
-  font-size: 0.9375rem;
-  line-height: 1.92;
-  letter-spacing: 0.1563rem;
-  margin-top: 0.625rem; }
 
 .title {
   margin-top: 1.25rem;
@@ -317,24 +285,6 @@ button {
   text-align: center;
   color: #333333; }
 
-.content2 {
-  margin-left: 1.875rem; }
-
-.new-collection-content {
-  height: 44.0625rem; }
-
-.new-collection {
-  display: block;
-  margin-top: 4.375rem; }
-
-.description {
-  font-family: 'Source Sans Pro';
-  font-size: 0.9375rem;
-  color: #999999;
-  text-align: center;
-  margin-top: 0;
-  text-align: left; }
-
 .price {
   font-family: 'Source Sans Pro';
   font-size: 0.9375rem;
@@ -342,21 +292,33 @@ button {
   text-align: center;
   margin-top: 0; }
 
+.new-collection-content {
+  height: 44.0625rem; }
+
+.female-collection,
+.male-collection {
+  width: 35.625rem;
+  height: 22.5rem; }
+
+.gender {
+  font-weight: normal;
+  color: #a88d7b;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-size: 0.9375rem;
+  line-height: 1.92;
+  letter-spacing: 0.1563rem;
+  margin-top: 0.625rem; }
+
 .denim-collection-content {
   height: 34.5rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/vector-modern-abstract-geometry-triangle-pattern-black-white-seamless-geometric-background-subtle-pillow-bed-sheet-design-79029924.jpg); }
+  background-image: url(/images/adult-blur-depth-of-field-1649067.jpg);
+  background-attachment: fixed; }
 
 .denim-looks-left-grid {
   text-align: center;
   margin: auto;
   display: inline; }
-
-.denim-looks-right-grid {
-  padding-top: 0.625rem;
-  height: 18.75rem;
-  width: 25rem;
-  margin: auto;
-  display: block; }
 
 .denim-looks {
   font-size: 3rem;
@@ -367,7 +329,6 @@ button {
   margin-bottom: 1.875rem; }
 
 .denim-paragraph {
-  font-family: 'Source Sans Pro';
   font-size: 0.9375rem;
   line-height: 1.6;
   letter-spacing: 0.0625rem;
@@ -378,7 +339,6 @@ button {
 
 .view-more {
   color: #ffffff;
-  font-family: 'Source Sans Pro', serif;
   text-transform: uppercase;
   width: 9.375rem;
   height: 2.5rem;
@@ -387,21 +347,19 @@ button {
   margin: auto;
   border: none; }
 
+.denim-looks-right-grid {
+  padding-top: 0.625rem;
+  height: 18.75rem;
+  width: 25rem;
+  margin: auto;
+  display: block; }
+
+.blog-article-content {
+  height: 41.9375rem; }
+
 .blog-pic,
 .blog-content {
   width: 35.625rem; }
-
-.blog-article-collection {
-  height: 41.9375rem; }
-
-.blog-date {
-  font-family: 'Source Sans Pro', serif;
-  color: #999999;
-  margin-top: 0;
-  letter-spacing: 0.0625rem;
-  font-size: 0.8125rem;
-  border-bottom: 0.0625rem solid #999999;
-  padding-bottom: 0.9375rem; }
 
 .blog-title {
   margin-top: 1.25rem;
@@ -418,9 +376,15 @@ button {
   letter-spacing: 0.0625rem !important;
   font-size: 0.9375rem !important; }
 
+.date {
+  color: #999999;
+  margin-top: 0;
+  letter-spacing: 0.0625rem;
+  font-size: 0.8125rem;
+  padding-bottom: 0.9375rem; }
+
 .blog-description {
   padding: 1.25rem 0;
-  font-family: 'Source Sans Pro', serif;
   text-align: left;
   color: #666666;
   font-size: 0.9375rem;
@@ -432,7 +396,6 @@ button {
 
 .arrow-text,
 .arrow-right {
-  font-family: 'Source Sans Pro', serif;
   color: #a88d7b;
   text-transform: uppercase;
   margin-bottom: 0.125rem;
@@ -441,38 +404,66 @@ button {
 .arrow-right {
   margin-left: 0.5rem; }
 
-.insta-pics {
-  height: 7.5rem; }
+.footer-grid {
+  padding-top: 2.5rem; }
+
+.footer-client-name {
+  text-transform: uppercase;
+  color: #e5e5e5;
+  letter-spacing: 0.9375rem;
+  font-size: 2.5rem;
+  margin-bottom: 2.375rem; }
 
 .location,
 .phone,
 .email {
   color: #999999;
-  font-family: 'Source Sans Pro', serif;
   margin-bottom: 1.875rem;
   letter-spacing: 0.125rem; }
 
 .links-on-footer a {
   text-decoration: none;
-  font-family: 'Source Sans Pro', serif;
   color: #999999;
   display: block;
   margin-bottom: 1.875rem; }
 
 .shop-link-on-footer a {
   text-decoration: none;
-  font-family: 'Source Sans Pro', serif;
   color: #999999;
   display: block;
   margin-bottom: 1.875rem; }
+
+.insta-pics {
+  height: 7.5rem; }
 
 .copyright {
   background-color: #d7d7d7;
   color: #666666;
   padding-top: 1.875rem;
   height: 3.4375rem;
-  font-family: 'Source Sans Pro', serif;
   text-align: center; }
+
+.socials {
+  margin-right: 1.25rem; }
+
+.content2 {
+  margin-left: 1.875rem; }
+
+.description {
+  font-family: 'Source Sans Pro';
+  font-size: 0.9375rem;
+  color: #999999;
+  text-align: center;
+  margin-top: 0;
+  text-align: left; }
+
+.blog-date {
+  color: #999999;
+  margin-top: 0;
+  letter-spacing: 0.0625rem;
+  font-size: 0.8125rem;
+  border-bottom: 0.0625rem solid #999999;
+  padding-bottom: 0.9375rem; }
 
 /* ABOUT PAGE 
 ======================================================================= */
@@ -483,10 +474,12 @@ button {
   color: #999999;
   display: block;
   margin: auto;
-  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   text-transform: uppercase;
   top: 0; }
+
+.secondary-socials {
+  display: inline; }
 
 .nav-default {
   background-color: #ffffff;
@@ -506,7 +499,6 @@ a.extra-margin {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .heading2 {
-  font-family: 'Source Sans Pro', sans-serif;
   height: 2.375rem;
   font-size: 3.125rem;
   font-weight: normal;
@@ -522,7 +514,6 @@ a.extra-margin {
   margin-bottom: 4.375rem;
   text-align: center;
   height: 2.4375rem;
-  font-family: 'Source Sans Pro';
   font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
@@ -558,7 +549,6 @@ a.extra-margin {
   padding-top: 4.375rem; }
 
 p.employee {
-  font-family: 'Source Sans Pro';
   font-size: 1.25rem;
   font-weight: 600;
   font-style: normal;
@@ -570,7 +560,6 @@ p.employee {
   margin: 0; }
 
 p.expertise {
-  font-family: 'Source Sans Pro';
   font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
@@ -611,7 +600,6 @@ p.expertise {
   color: #666666 !important;
   padding-top: 1.25rem;
   margin-bottom: 0;
-  font-family: 'Source Sans Pro';
   font-size: 0.9375rem;
   font-weight: bold;
   line-height: 1.67;
@@ -654,7 +642,6 @@ p.expertise {
 
 .op-title {
   height: 1.125rem;
-  font-family: "Source Sans Pro";
   font-size: 1.5625rem;
   font-weight: 600;
   font-style: normal;
@@ -667,7 +654,6 @@ p.expertise {
 .op-details {
   padding-top: 1.875rem;
   height: 1rem;
-  font-family: "Source Sans Pro";
   font-size: 1.125rem;
   font-weight: normal;
   font-style: normal;
@@ -680,7 +666,6 @@ p.expertise {
 .telephone,
 .chat {
   height: 1.3125rem;
-  font-family: SourceSansPro;
   font-size: 1.125rem;
   font-weight: normal;
   font-style: normal;
@@ -717,7 +702,6 @@ ul.dark-font {
 
 a.client-name-dark {
   line-height: 2.1;
-  font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.9375rem;
   font-size: 1.875rem;
@@ -740,7 +724,6 @@ a.client-name-dark {
   margin: auto;
   display: inline;
   height: 0.9375rem;
-  font-family: 'Source Sans Pro';
   font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
@@ -799,7 +782,6 @@ a.client-name-dark {
 .read-more {
   width: 4.1875rem;
   height: 0.6875rem;
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.9375rem;
   font-weight: 600;
   font-style: normal;
@@ -811,8 +793,7 @@ a.client-name-dark {
 
 .top-section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "top-left top-mid top-right"; }
+  grid-template-columns: 1fr 1fr 1fr; }
 
 img {
   width: 100%;
@@ -829,6 +810,7 @@ img {
   display: grid;
   grid-gap: 0.625rem;
   width: 71.875rem;
+  margin-top: 4.375rem;
   margin: auto;
   grid-template-columns: repeat(2, 1fr); }
 
