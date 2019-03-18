@@ -117,11 +117,20 @@
     height: 2.5rem;
     border-radius: 1.25rem;
     background-color: #a88d7b;
+    margin: auto;
+    display: block;
+    border: none;
+}
+
+a.topbtn:hover {
+    padding-left: 10px;
+}
+
+// Look Book text
+.look-book-btn {
     color: white;
     text-transform: uppercase;
-    display: block;
-    margin: auto;
-    border: none;
+    
 }
 
 // Arrow under look book btn
@@ -434,7 +443,8 @@ a.extra-margin {
 .header2 {
     width: 100%;
     height: 27.8125rem;    
-    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(/images/seamless-pattern-in-cartoon-80s-90s-comic-style-vector-15514773.jpg);
+    background-attachment: fixed;
 }
 
 .heading2 {

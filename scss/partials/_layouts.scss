@@ -212,3 +212,40 @@ img {
     "blogs1 blogs1 blogs1"
     "blogs2 blogs2 blogs2"
 }
+
+// LOOK BOOK PAGE
+
+.lookbook-grid{
+    display: grid;
+    grid-gap: 0.625rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 400px);
+    margin: 2.5rem 0;
+    
+}
+
+.item1,
+.item3,
+.item6,
+.item8 {
+    grid-row: span 2;
+}
+
+.item5 {
+    grid-column: span 2;
+}
+
+.item12 {
+    grid-column: span 3;
+
+}
+
+.item9 {
+    grid-column: span 2;
+
+}
+
+.item14 {
+    grid-column: span 2;
+
+}
