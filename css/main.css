@@ -183,7 +183,7 @@ button {
   color: black;
   height: 3.75rem; }
 
-.search {
+.search-default {
   margin-right: 9.375rem;
   width: 3.125rem;
   height: 1.4375rem;
@@ -204,7 +204,7 @@ button {
   margin-bottom: 1.875rem;
   margin-top: 0; }
 
-.cart {
+.cart-default {
   margin-left: 9.375rem;
   width: 1.3125rem;
   height: 1.125rem;
@@ -317,7 +317,7 @@ a.topbtn:hover {
 
 .denim-collection-content {
   height: 34.5rem;
-  background-image: url(/images/adult-blur-depth-of-field-1649067.jpg);
+  background-image: url(/images/seamless-background-80s14-.jpg);
   background-attachment: fixed; }
 
 .denim-looks-left-grid {
@@ -618,6 +618,28 @@ p.expertise {
 /* CONTACT FORM 
 =======================================================================================
 */
+.search {
+  margin-left: 30px;
+  width: 3.125rem;
+  height: 1.4375rem;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.0688rem;
+  text-align: left;
+  color: #666666; }
+
+.cart {
+  margin-left: 50px;
+  width: 1.3125rem;
+  height: 1.125rem;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0688rem;
+  text-align: left;
+  color: #666666; }
+
 .operation {
   background-color: #e6e6e6;
   display: block;
@@ -689,11 +711,11 @@ p.expertise {
 
 ul.dark-font {
   margin-top: 1.25rem;
-  float: right; }
+  margin-left: 6.25rem; }
 
 .dark-font li a {
   font-weight: 600;
-  padding: 0 1.25rem;
+  padding: 0 0.9375rem;
   font-family: 'Dosis';
   text-decoration: none;
   text-transform: uppercase;
