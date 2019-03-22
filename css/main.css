@@ -11,7 +11,7 @@
 select {
   border: none;
   background-color: transparent;
-  color: white; }
+  color: #fff; }
 
 .socials {
   display: inline; }
@@ -55,7 +55,7 @@ h1 {
   margin: 2.5rem 0; }
 
 h1:after {
-  background: black;
+  background: #000;
   bottom: -0.5rem;
   margin: auto;
   content: "";
@@ -80,7 +80,7 @@ h2 {
   margin-bottom: 6.25rem; }
 
 h2:after {
-  background: black;
+  background: #000;
   bottom: -0.5rem;
   margin: auto;
   content: "";
@@ -94,8 +94,8 @@ h5 {
   text-align: left !important; }
 
 footer {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   height: 20.3125rem;
   color: #999999; }
 
@@ -130,7 +130,18 @@ button {
   border: none; }
 
 .send-mail {
-  font-family: "Source Sans Pro";
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 0.0938rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white; }
+
+.add-to-cart {
+  text-transform: uppercase;
   font-size: 0.9375rem;
   font-weight: normal;
   font-style: normal;
@@ -145,7 +156,7 @@ button {
   width: 100%;
   height: 3.3125rem;
   background-color: #666666;
-  color: #ffffff;
+  color: #fff;
   display: block;
   margin: auto;
   text-align: center;
@@ -180,7 +191,7 @@ button {
   margin-bottom: 8.125rem;
   text-align: center;
   font-weight: normal;
-  color: black;
+  color: #000;
   height: 3.75rem; }
 
 .search-default {
@@ -194,7 +205,7 @@ button {
   line-height: normal;
   letter-spacing: 0.0688rem;
   text-align: left;
-  color: #ffffff; }
+  color: #fff; }
 
 .client-name-light {
   text-transform: uppercase;
@@ -211,7 +222,7 @@ button {
   font-size: 0.9375rem;
   letter-spacing: 0.0688rem;
   text-align: left;
-  color: #ffffff; }
+  color: #fff; }
 
 .heading {
   height: 2.375rem;
@@ -220,7 +231,7 @@ button {
   line-height: 0.96;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff; }
+  color: #fff; }
 
 .heading:after {
   background: none; }
@@ -252,14 +263,14 @@ a.topbtn:hover {
   padding-left: 10px; }
 
 .look-book-btn {
-  color: white;
+  color: #fff;
   text-transform: uppercase; }
 
 .down-arrow {
   height: 1rem;
   font-size: 1.875rem;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   animation: move 1s ease infinite; }
 
 @keyframes move {
@@ -330,7 +341,7 @@ a.topbtn:hover {
   font-family: 'Dosis';
   font-stretch: normal;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 1.875rem; }
 
 .denim-paragraph {
@@ -338,12 +349,12 @@ a.topbtn:hover {
   line-height: 1.6;
   letter-spacing: 0.0625rem;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin: 0 2.5rem 2.5rem 2.5rem;
   width: auto; }
 
 .view-more {
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   width: 9.375rem;
   height: 2.5rem;
@@ -487,13 +498,13 @@ a.topbtn:hover {
   display: inline; }
 
 .nav-default {
-  background-color: #ffffff;
+  background-color: #fff;
   height: 4.375rem;
   padding-top: 1.25rem;
   margin-bottom: 10rem;
   text-align: center;
   font-weight: normal;
-  color: black; }
+  color: #000; }
 
 a.extra-margin {
   margin-top: 0.625rem; }
@@ -511,7 +522,7 @@ a.extra-margin {
   line-height: 0.96;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff; }
+  color: #fff; }
 
 .heading2:after {
   background: none; }
@@ -734,13 +745,13 @@ a.client-name-dark {
   letter-spacing: 0.9375rem;
   font-size: 1.875rem;
   margin-bottom: 1.875rem;
-  color: black; }
+  color: #000; }
 
 /* BLOG PAGE 
 ==============================================================
 */
 .blog-grid {
-  border-bottom: 0.0625rem black solid;
+  border-bottom: 0.0625rem #000 solid;
   width: 49.9375rem;
   display: block;
   margin: auto;
@@ -818,6 +829,18 @@ a.client-name-dark {
   letter-spacing: normal;
   text-align: left;
   color: #706259; }
+
+.main-shop-content {
+  height: 100.625rem;
+  padding-top: 70px; }
+
+.black-maxi-dress-image {
+  width: 300px;
+  height: 300px; }
+
+.shop1 {
+  text-align: left;
+  font-size: 25px; }
 
 .top-section {
   display: grid;
@@ -1008,5 +1031,17 @@ img {
 
 .item14 {
   grid-column: span 2; }
+
+.main-shop-content {
+  height: 1500px;
+  padding-top: 70px; }
+
+.shop-1 {
+  display: grid;
+  grid-gap: 50px;
+  width: 900px;
+  height: 300px;
+  margin: auto;
+  grid-template-columns: 1fr 2fr; }
 
 /*# sourceMappingURL=main.css.map */

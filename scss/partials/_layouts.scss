@@ -249,3 +249,22 @@ img {
     grid-column: span 2;
 
 }
+
+//===================
+ // Shop Page
+
+
+.main-shop-content {
+    height: 1500px;
+    padding-top: 70px; 
+}
+
+
+ .shop-1 {
+    display: grid;
+    grid-gap: 50px;
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    grid-template-columns: 1fr 2fr;
+}

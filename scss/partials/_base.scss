@@ -10,7 +10,7 @@
 select {
     border: none;
     background-color: transparent;
-    color: white
+    color: $color-text-light
 }
 
 .socials {
@@ -55,7 +55,7 @@ h1 {
 }
 
 h1:after {
-    background: black;
+    background: $color-text-dark;
     bottom: -0.5rem;
     margin: auto;
     content: "";
@@ -74,7 +74,7 @@ h2 {
 }
 
 h2:after {
-    background: black;
+    background: $color-text-dark;
     bottom: -0.5rem;
     margin: auto;
     content: "";
@@ -90,8 +90,8 @@ h5 {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: $color-text-dark;
+    color: $color-text-light;
     height: 20.3125rem;
     color: #999999;
 
