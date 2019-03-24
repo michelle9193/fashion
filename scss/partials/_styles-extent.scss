@@ -809,19 +809,16 @@ a.client-name-dark {
     font-size: 25px;
     text-align: left;
     margin-top: 0;
-    line-height: 3rem;
+    margin-bottom: 1.25rem;
 }
 
 .shop-price {
     @include description;
     text-align: left;
-    line-height: 3rem;
-
 }
 
 .shop-description {
     @include description;
     text-align: left;
-    line-height: 1.5625rem;
-    margin-bottom: 47px
+    margin: 1.875rem 0;
 }
