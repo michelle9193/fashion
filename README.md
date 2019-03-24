@@ -24,7 +24,9 @@ Project showcasing different activities to do in the Western Cape i.e. fishing, 
 
 ### Other Technologies Used
 
-Technologies and Tools Used:
+```
+Technologies:
+
 1. HTML
 2. CSS
 3. JavaScript
