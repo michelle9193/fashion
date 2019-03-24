@@ -2,7 +2,7 @@
 Fashion Web Store
 
 
-An interactive fashion webpage containing a .
+Creation of a fully interactive fashion webpage which enables you to add to cart and  .
 
 ## Setting up your workspace
 
@@ -38,7 +38,8 @@ Technologies:
 3. JavaScript
 4. SASS
 
-
+```
+```
 Tools:
 
 - VS Code
@@ -49,6 +50,12 @@ Tools:
 - Gimp Photo Editor
 
 ```
+
+### Changelog 
+
+```
+
+
 
 ## Contributors
 
