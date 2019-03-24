@@ -138,7 +138,7 @@ button {
   letter-spacing: 0.0938rem;
   text-align: center;
   text-transform: uppercase;
-  color: white; }
+  color: #fff; }
 
 .add-to-cart {
   width: 11.25rem;
@@ -153,11 +153,11 @@ button {
   letter-spacing: 0.0938rem;
   text-align: center;
   text-transform: uppercase;
-  color: white; }
+  color: #fff; }
 
 .add-to-cart:hover {
   color: #ac907f;
-  background-color: white;
+  background-color: #fff;
   border: #ac907f 2px solid;
   transition: 0.2s ease-out; }
 
@@ -295,7 +295,20 @@ a.topbtn:hover {
 
 .featured-product-clothing {
   width: 23.3125rem;
-  height: 22.5rem; }
+  height: 22.5rem;
+  position: relative;
+  overflow: hidden; }
+
+.featured-product-clothing img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+featured-product-clothing:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
 
 .title {
   margin-top: 1.25rem;
