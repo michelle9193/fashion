@@ -40,3 +40,10 @@ button {
     text-transform: uppercase;
     color: white;
 }
+
+.add-to-cart:hover {
+    color: #ac907f;
+    background-color: white;
+    border: #ac907f 2px solid;
+    transition: .2s ease-out
+}
