@@ -72,3 +72,11 @@ details3.innerHTML = highJeans.details;
 // caption7.innerHTML = purpleHoodie.caption;
 // price7.innerHTML = purpleHoodie.price;
 // details7.innerHTML = purpleHoodie.details;
+
+
+// Heart "like" button
+
+$('.lnr-heart').click(function(){
+    $('#heart').toggleClass('color1');
+    $('#heart').toggleClass('color2');
+});

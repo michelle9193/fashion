@@ -918,6 +918,18 @@ a.client-name-dark {
   content: url(/images/2003128-15-1.jpg);
   transition: 0.8s ease-out; }
 
+.lnr-heart {
+  float: right;
+  display: inline;
+  width: 1.3125rem;
+  height: 1.125rem;
+  font-size: 1.25rem;
+  color: #999999; }
+
+.color2 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red; }
+
 .top-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; }
