@@ -74,9 +74,3 @@ details3.innerHTML = highJeans.details;
 // details7.innerHTML = purpleHoodie.details;
 
 
-// Heart "like" button
-
-$('.lnr-heart').click(function(){
-    $('#heart').toggleClass('color1');
-    $('#heart').toggleClass('color2');
-});

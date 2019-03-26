@@ -266,10 +266,12 @@ button {
   background-color: #a88d7b;
   margin: auto;
   display: block;
-  border: none; }
+  border: none;
+  outline: none; }
 
-a.topbtn:hover {
-  padding-left: 10px; }
+.topbtn:hover {
+  font-size: 1rem;
+  transition: 0.2s ease-out; }
 
 .look-book-btn {
   color: #fff;
@@ -926,9 +928,33 @@ a.client-name-dark {
   font-size: 1.25rem;
   color: #999999; }
 
-.color2 {
+.lnr-heart:hover {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: red; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #c9b3a4;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  font-weight: bold; }
+
+#myBtn:hover {
+  background: url(/images/paint-ty-dye.jpg);
+  background-position: center;
+  color: black;
+  transition: 0.5s ease-out; }
 
 .top-section {
   display: grid;
