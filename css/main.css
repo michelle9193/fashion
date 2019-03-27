@@ -978,6 +978,14 @@ a.client-name-dark {
   background-position: center;
   color: black; }
 
+#lblCartCount {
+  font-size: 10px;
+  background: #c9b3a4;
+  border-radius: 50%;
+  color: #fff;
+  padding: 2px 5px;
+  vertical-align: top; }
+
 .top-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; }
