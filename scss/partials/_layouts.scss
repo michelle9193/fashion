@@ -260,7 +260,13 @@ img {
 }
 
 
- .shop-1 {
+ .shop-content {
+    display: grid;
+    grid-gap: 50px;
+    margin: auto;
+}
+
+.product {
     display: grid;
     grid-gap: 50px;
     width: 900px;

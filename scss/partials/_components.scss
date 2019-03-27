@@ -11,6 +11,7 @@ button {
     height: 2.5rem;
     background: #ac907f;
     border: none;
+    outline: none;
 } 
 
 .send-mail {
@@ -45,5 +46,28 @@ button {
     color: #ac907f;
     background-color: $color-text-light;
     border: #ac907f 2px solid;
-    transition: .2s ease-out
+    transition: .2s ease-out;
+}
+
+.remove-cart {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    background-color: red;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.remove-cart:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: red;
+    background-color: white;
+    border: red 2px solid;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 30px;
 }

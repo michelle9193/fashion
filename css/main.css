@@ -4,7 +4,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro';
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth; }
 
 /* HOMEPAGE
 ===================================================================================== */
@@ -127,7 +128,8 @@ button {
   width: 9.6875rem;
   height: 2.5rem;
   background: #ac907f;
-  border: none; }
+  border: none;
+  outline: none; }
 
 .send-mail {
   font-size: 0.9375rem;
@@ -159,7 +161,28 @@ button {
   color: #ac907f;
   background-color: #fff;
   border: #ac907f 2px solid;
-  transition: 0.2s ease-out; }
+  transition: .2s ease-out; }
+
+.remove-cart {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  background-color: red;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 30px; }
+
+.remove-cart:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: red;
+  background-color: white;
+  border: red 2px solid;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 30px; }
 
 .top-section {
   width: 100%;
@@ -953,8 +976,7 @@ a.client-name-dark {
 #myBtn:hover {
   background: url(/images/paint-ty-dye.jpg);
   background-position: center;
-  color: black;
-  transition: 0.5s ease-out; }
+  color: black; }
 
 .top-section {
   display: grid;
@@ -1150,7 +1172,12 @@ img {
   height: 1500px;
   padding-top: 70px; }
 
-.shop-1 {
+.shop-content {
+  display: grid;
+  grid-gap: 50px;
+  margin: auto; }
+
+.product {
   display: grid;
   grid-gap: 50px;
   width: 900px;
