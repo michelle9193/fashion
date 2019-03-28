@@ -26,24 +26,6 @@
             </section>
         </section>
 
-        <!-- shopping cart -->
-
-        <div>
-            <ul>
-                <li><a href="add-to-cart" data-name="name" data-price="price">Dress R499</a></li>
-                <li><a href="add-to-cart" data-name="name" data-price="price">Jeans R888</a></li>
-                <li><a href="add-to-cart" data-name="name" data-price="price">Jacket R200</a></li>
-                <li><a href="add-to-cart" data-name="name" data-price="price"></a></li>
-                <li><a href="add-to-cart" data-name="name" data-price="price"></a></li>
-                <li><a href="add-to-cart" data-name="name" data-price="price"></a></li>
-                <li><a href="add-to-cart" data-name="name" data-price="price"></a></li>
-
-            </ul>
-        </div>
-
-
-
-
         <section  class="wrapper">
             <section class="header2">
                 <nav class="nav-default">
@@ -55,9 +37,33 @@
                         <li class="blog"><a href="blog.html">Blog</a></li>
                         <li class="contact"><a href="contact.html">Contact</a></li>
                         <li class="lookbook"><a href="lookbook.html">Lookbook</a></li>
-                        <li class="cart"><i class="fas fa-shopping-cart"></i></li>
-                        <li><asp:Label ID="lblCartCount"/>1</a></li>
+                        <li id="basket" class="cart-icon"><i class="fas fa-shopping-cart"></i>                            <span id="itemCount">0</span>
+                        </li> 
                         <li class="search"><i class="fas fa-search"></i></li>
+                        <!-- <li id="basket">
+
+                                <button class="top-bar-item basket-button" ><i class="icon-basket"></i> basket <span class="basket-count" id="basketCount">0</span></button>
+                                
+                              </li> -->
+                            </ul>
+                          </nav>
+              
+                          <!-- ITEMS SEEN IN CART -->
+                          <article class="cart">
+                            <div class="cart-bar">
+                              <h3>my cart</h3>
+                              <a >View cart</a>
+                            </div>
+                            
+                            <section class="products">
+                            </section>
+                            <p class="subtotal">
+                              Subtotal 
+                              <!-- <span id="itemCount">(0 item)</span> -->
+                              <span id="priceTotal">R0.00</span>
+                            </p>
+                            <button class="button expanded">CHECKOUT</button>
+                          </article>
                     </ul>
                 </nav>
                 <h1 class="heading2">Shop</h1>
@@ -72,33 +78,33 @@
             <section id="image" class="maxi-dress clothing-image item"></section>
             <section class="maxi-dress-details">
                 <span><i id="heart" class="lnr lnr-heart color2"></i></span>
-                <p id="caption" class="shop-title"></p>
-                <p  id="price" class="shop-price"></p>
-                <p id="details" class="shop-description"></p>
-                <button class="add-to-cart btn_add_remove_cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
-            
+                <p id="caption" class="product-title"></p>
+                <p  id="price" class="product-price"></p>
+                <p id="details" class="product-description"></p>
+                <button id="add-to-cart" class="add-to-cart btn_add_remove_cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
+                
             </section>
         </section>
             <!-- Brown Dungaree -->
             <section class="product">
-            <section id="image1" class="dungaree clothing-image item"></section>
-            <section class="brown-dungaree-details">
-                <span><i id="heart" class="lnr lnr-heart"></i></span>
-                <p id="caption1" class="shop-title"></p>
-                <p id="price1" class="shop-price"></p>
-                <p id="details1" class="shop-description"></p>
-                <button class="add-to-cart btn_add_remove_cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
-            </section>
-        </section>           
+                <section id="image1" class="dungaree clothing-image item"></section>
+                <section class="brown-dungaree-details">
+                    <span><i id="heart" class="lnr lnr-heart"></i></span>
+                    <p id="caption1" class="product-title"></p>
+                    <p id="price1" class="product-price"></p>
+                    <p id="details1" class="product-description"></p>
+                    <button id="add-to-cart" class="add-to-cart btn_add_remove_cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
+                </section>
+            </section>           
             <!-- Purple Crop Hoodie -->
             <section class="product">
             <section id="image2" class="lilac-jacket clothing-image"></section>
             <section class="purple-crop-hoodie-details">
                 <span><i id="heart" class="lnr lnr-heart"></i></span>
-                <p id="caption2" class="shop-title"></p>
-                <p id="price2" class="shop-price"></p>
-                <p id="details2" class="shop-description">.</p>
-                <button class="add-to-cart btn_add_remove_cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
+                <p id="caption2" class="product-title"></p>
+                <p id="price2" class="product-price"></p>
+                <p id="details2" class="product-description">.</p>
+                <button id="add-to-cart" class="add-to-cart btn_add_remove_cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
             </section>
         </section>
 
@@ -107,10 +113,10 @@
             <section id="image3" class="high-waisted-jeans clothing-image"></section>
             <section class="high-waisted-jeans-details">
                 <span><i id="heart" class="lnr lnr-heart"></i></span>
-                <p id="caption3" class="shop-title"></p>
-                <p id="price3" class="shop-price"></p>
-                <p id="details3" class="shop-description"></p>
-                <button class="add-to-cart btn_add_remove_cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
+                <p id="caption3" class="product-title"></p>
+                <p id="price3" class="product-price"></p>
+                <p id="details3" class="product-description"></p>
+                <button id="add-to-cart" class="add-to-cart btn_add_remove_cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
             </section>
         </section>
  
@@ -118,36 +124,36 @@
             <!-- <section id="image4" class="clothing-image"></section>
             <section class="bomber-jacket-details">
                 <span class="lnr lnr-heart"></span>
-                <p id="caption4" class="shop-title"></p>
-                <p id="price4" class="shop-price"></p>
-                <p id="details4" class="shop-description"></p>
+                <p id="caption4" class="product-title"></p>
+                <p id="price4" class="product-price"></p>
+                <p id="details4" class="product-description"></p>
                 <button class="add-to-cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
             </section> -->
 
             <!-- Multicolor Knit Vest Crop -->
             <!-- <section id="image5" class="clothing-image"></section>
             <section class="colorful-crop-details">
-                <p id="caption5" class="shop-title"></p>
-                <p id="price5" class="shop-price"></p>
-                <p id="details5" class="shop-description"></p>
+                <p id="caption5" class="product-title"></p>
+                <p id="price5" class="product-price"></p>
+                <p id="details5" class="product-description"></p>
                 <button class="add-to-cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
             </section> -->
 
             <!-- Red/White/Black inset dress -->
             <!-- <section id="image6" class="clothing-image"></section>
             <section class="inset-dress-details">
-                <p id="caption6" class="shop-title"></p>
-                <p id="price6" class="shop-price"></p>
-                <p id="details6" class="shop-description"></p>
+                <p id="caption6" class="product-title"></p>
+                <p id="price6" class="product-price"></p>
+                <p id="details6" class="product-description"></p>
                 <button class="add-to-cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
             </section> -->
 
             <!-- Mens Denim Coat -->
             <!-- <section id="image7" class="clothing-image"></section>
             <section class="denim-coat-details">
-                <p id="caption7" class="shop-title"></p>
-                <p id="price7"class="shop-price"></p>
-                <p id="details7" class="shop-description">.</p>
+                <p id="caption7" class="product-title"></p>
+                <p id="price7"class="product-price"></p>
+                <p id="details7" class="product-description">.</p>
                 <button class="add-to-cart"><i class="fas fa-shopping-cart">&nbsp;</i> Add to Cart</button>
             </section> -->
 

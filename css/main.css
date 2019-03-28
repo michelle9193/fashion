@@ -689,7 +689,7 @@ p.expertise {
   text-align: left;
   color: #666666; }
 
-.cart {
+.cart-icon {
   margin-left: 50px;
   width: 1.3125rem;
   height: 1.125rem;
@@ -889,7 +889,7 @@ a.client-name-dark {
   text-align: left;
   font-size: 25px; }
 
-.shop-title {
+.product-title {
   margin-top: 1.25rem;
   margin-bottom: 0;
   text-align: center;
@@ -907,7 +907,7 @@ a.client-name-dark {
   margin-bottom: 1.25rem;
   letter-spacing: 1px; }
 
-.shop-price {
+.product-price {
   font-family: 'Source Sans Pro';
   font-size: 0.9375rem;
   color: #999999;
@@ -915,7 +915,7 @@ a.client-name-dark {
   margin-top: 0;
   text-align: left; }
 
-.shop-description {
+.product-description {
   font-family: 'Source Sans Pro';
   font-size: 0.9375rem;
   color: #999999;
@@ -978,13 +978,58 @@ a.client-name-dark {
   background-position: center;
   color: black; }
 
-#lblCartCount {
+.cart {
+  position: absolute;
+  right: 1rem;
+  width: 200px;
+  padding: .7rem 1rem;
+  background: #fff;
+  border: 1px solid #E7EAEF;
+  z-index: 20; }
+  .cart .button {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: .7rem; }
+  .cart:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 0.5rem solid transparent;
+    border-bottom-color: #fff;
+    border-top: 0; }
+  .cart-bar {
+    display: flex;
+    border-bottom: 1px solid #E7EAEF; }
+    .cart-bar h3 {
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: auto; }
+    .cart-bar a {
+      font-size: 14px;
+      text-decoration: underline;
+      font-weight: 700; }
+  .cart-product {
+    display: flex;
+    padding: .7rem 0;
+    border-bottom: 1px solid #E7EAEF;
+    justify-content: space-evenly; }
+    .cart-product img {
+      margin-right: 1rem;
+      width: 56px;
+      height: 77px; }
+    .cart-product-description {
+      align-self: center;
+      display: block; }
+
+.icon-delete {
+  top: .5rem;
+  right: 0;
   font-size: 10px;
-  background: #c9b3a4;
-  border-radius: 50%;
-  color: #fff;
-  padding: 2px 5px;
-  vertical-align: top; }
+  cursor: pointer;
+  z-index: 30; }
 
 .top-section {
   display: grid;

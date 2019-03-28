@@ -5,13 +5,13 @@ function Clothing(image, caption, price, details) {
     this.details = details;
 }
 
-    let maxiDress = new Clothing ('<img src="images/0131265647443_001_d.jpg">',"Black Maxi Dress", "R499", "Slip into this ultra-luxe maxi dress. Satin-look fabric cut in a classic slip silhouette with seamed triangle cups at the empire waist. Topped skinny shoulder straps at the v-neckline that tie at the open back.");
+    let maxiDress = new Clothing ('<img src="images/product1.jpg">',"Black Maxi Dress", "R499", "Slip into this ultra-luxe maxi dress. Satin-look fabric cut in a classic slip silhouette with seamed triangle cups at the empire waist. Topped skinny shoulder straps at the v-neckline that tie at the open back.");
     // ===============================
-    dungaree = new Clothing('<img src="images/0180621400087_020_b.jpg">',"Cassidy Brown Bib Dungaree", "R699", "Essential workwear-look dungarees. Features a classic bib style front pocket. Allover contrast stitch detailing. Topped with adjustable shoulder straps. ");
+    dungaree = new Clothing('<img src="images/product2.jpg">',"Cassidy Brown Bib Dungaree", "R699", "Essential workwear-look dungarees. Features a classic bib style front pocket. Allover contrast stitch detailing. Topped with adjustable shoulder straps. ");
      // ===============================
-    purpleHoodie = new Clothing('<img src="images/0115090559984_055_d.jpg">',"Utility Lilac Crop Hoodie", "R499", "A cropped style utility jacket with front silver zip-through and adjustable hood. Allover pocket detailing, complete with elasticated cuffs and hem.");
+    purpleHoodie = new Clothing('<img src="images/product3.jpg">',"Utility Lilac Crop Hoodie", "R499", "A cropped style utility jacket with front silver zip-through and adjustable hood. Allover pocket detailing, complete with elasticated cuffs and hem.");
      // ===============================
-    highJeans = new Clothing('<img src="images/2003128-15-2 (1).jpg">',"High Waisted Jeans", "R599", "Throw it back in style with the High Rise 90s Stretch Jean. A relaxed fit with room to move, the high rise jean has distressed detail throughout for that perfetct worn-in look."); 
+    highJeans = new Clothing('<img src="images/product4.jpg">',"High Waisted Jeans", "R599", "Throw it back in style with the High Rise 90s Stretch Jean. A relaxed fit with room to move, the high rise jean has distressed detail throughout for that perfetct worn-in look."); 
      // ===============================  
     // bomberJacket = new Clothing('<img src="images/image_7dc79e50-6224-4d55-bbef-1c5778e22f11_1024x1024.jpg">','Retro Unisex Oversized Colourful Bomber Jacket', "R999", "One of a kind item! Awesome colourful bomber jacket. Perfect for festivals and for those cooler summer days coming up" ); 
     //  // ===============================
