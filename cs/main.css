@@ -1155,34 +1155,26 @@ img {
   display: grid;
   grid-gap: 0.625rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, 100px);
+  grid-template-rows: repeat(4, 400px);
   margin: 2.5rem 0; }
 
-.item1 {
-  grid-row: span 5; }
-
-.item2,
-.item4 {
-  grid-row: span 4; }
-
+.item1,
 .item3,
+.item6,
 .item8 {
-  grid-row: span 4; }
-
-.item6 {
-  grid-row: span 3; }
+  grid-row: span 2; }
 
 .item5 {
   grid-column: span 2; }
 
 .item12 {
-  grid-column: span 2; }
+  grid-column: span 3; }
 
 .item9 {
   grid-column: span 2; }
 
 .item14 {
-  grid-column: span 3; }
+  grid-column: span 2; }
 
 .main-shop-content {
   height: 1500px;
