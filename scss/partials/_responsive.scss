@@ -1,4 +1,130 @@
-// // Look Book Grid
-//  @media (max-width: 425px) {
-     
-//  }
+@media (max-width: 1024px) {
+
+nav {
+    a {
+        padding: 0 0.625rem;
+        font-family: 'Dosis';
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+  }
+  
+
+    .featured-product {
+        max-width: 64rem;
+        &-content {
+            margin: auto;
+        }
+
+        &-clothing {
+            width: 20.625rem;
+        }
+    }
+
+    .new-collection {
+        max-width: 64rem;
+    }
+
+    .female-collection,
+    .male-collection {
+        width: 31.6875rem;
+    }
+
+    
+    .blog-article {
+        max-width: 64rem;
+        grid-gap: 0;
+        &-content {
+            margin: 0;
+
+        }
+    }
+
+    .blog-pic,
+    .blog-content {
+        width: 500px;
+}
+
+    .denim-collection-content {
+        width: 1024px;
+    }
+
+    .footer {
+        &-grid {
+            height: 280px;
+        }
+
+        &-links-section {
+            width: 100px;
+        }
+
+        &-shop-section {
+            width: 90px;
+        }
+
+        &-contact-section {
+            width: 300px;
+            margin-right: 0;
+        }
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .top-left,
+    .top-right,
+    .top-mid {
+        padding-top: 0.75rem;
+}
+
+    .lang,
+    .currency {
+        font-size: 12px;
+        margin-right: 30px;
+    }
+
+    .shipping {
+        font-size: 0.875rem;
+    }
+
+    .home-socials {
+        padding-left: 0.9375rem;
+        margin-right: 0.9375rem;
+        font-size: 0.75rem;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    .featured-product {
+        max-width: 48rem;
+        &-content {
+            margin: auto;
+            height: 34.375rem;
+        }
+
+        &-clothing {
+            width: 15.25rem;
+            height: 17.5rem;
+        }
+    }
+
+    .new-collection {
+        max-width: 768px;
+    }
+
+    .female-collection,
+    .male-collection {
+        width: 380px;
+        height: 350px;
+    }
+
+}

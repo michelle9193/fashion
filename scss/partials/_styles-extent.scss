@@ -1,3 +1,4 @@
+
 // INDEX PAGE
 
 // Top section (language, shipping & socials)
@@ -11,7 +12,8 @@
     text-align: center;
     text-transform: uppercase;
     top:0;
-}
+} 
+
 
 // Left = language & currency; mid = shipping; right = social icons
 .top-left,
@@ -20,12 +22,19 @@
     padding-top: 0.9375rem;
 }
 
+// Social icons in top-left section above nav
+.socials {
+    display: inline;
+}
+
 // Language and Currency 
 .lang,
 .currency {
     display: inline;
     margin-right: 3.125rem
 }
+
+
 
 // Social network icons top-right above navbar
 .home-socials {
@@ -164,19 +173,6 @@
     height: 22.5rem;
     position: relative;
     overflow: hidden;
-}
-
-.featured-product-clothing img {
-    max-width: 100%;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-
-featured-product-clothing:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 // Name of feautrued products
@@ -379,22 +375,10 @@ featured-product-clothing:hover {
 }
 
 
-
-
-
 .description {
     @include description;
     text-align: left;
 }
-
-
-
-
-
-
-
-
-
 
 .blog-date {
     color: #999999;
@@ -404,16 +388,6 @@ featured-product-clothing:hover {
     border-bottom: 0.0625rem solid #999999;
     padding-bottom: 0.9375rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -583,7 +557,10 @@ p.expertise {
     letter-spacing: 0.0688rem;
     text-align: left;
     color: #666666;
+    
 }
+
+
 
 .cart-icon {
     margin-left: 50px;

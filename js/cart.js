@@ -42,16 +42,16 @@ var product = {
 
 var cart = [];
 var cartSorted = [];
-var priceTotal = 0;
+var totalPrice = 0;
 
 function getCart() {
-    priceTotal = 0
+    totalPrice = 0
     $.each(product, function(key, value){
-        priceTotal += (value.price * value.qty);
-        return priceTotal;
+        totalPrice += (value.price * value.qty);
+        return totalPrice;
     });  
     $("#basketCount").text(cart.length);
-    $("#priceTotal").text("R" + priceTotal + ".00");
+    $("#totalPrice").text("R" + totalPrice + ".00");
     if (cart.length == 1) {
         $("#itemCount").text("(" + cart.length + " item)");
     } else {
@@ -88,7 +88,7 @@ function getCart() {
 function addToCart(itemIndex) {
     cart.push(itemIndex);
     getCart()
-    console.log(priceTotal);
+    console.log(totalPrice);
 }
 
 function deleteFromCart(itemIndex) {

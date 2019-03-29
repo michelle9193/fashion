@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="scss/partials/_base.scss" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+</head>
 
 </head>
 <body>
@@ -37,7 +39,7 @@
                     <li class="blog"><a href="blog.html">Blog</a></li>
                     <li class="contact"><a href="contact.html">Contact</a></li>
                     <li class="lookbook"><a href="lookbook.html">Lookbook</a></li>
-                    <li class="cart"><i class="fas fa-shopping-cart"></i></li>
+                    <li class="cart-icon"><i class="fas fa-shopping-cart"></i></li>
                     <li class="search"><i class="fas fa-search"></i></li>
                 </ul>
             </nav>
@@ -45,26 +47,77 @@
             <p class="title2">Home / Lookbook</p>
     </header>
 
-
     <section class="lookbook-grid">
-        <section class="item1"><img src="images/68a1fd0a2fe657a1752f7354791bed21.jpg" alt=""></section>
-        <section class="item2"><img src="images/2003128-15-1.jpg" alt=""></section>
-        <section class="item4"><img src="images/accessories-adult-attractive-935952.jpg" alt=""></section>
-        <section class="item5"><img src="images/adult-bag-blue-background-1126993.jpg" alt=""></section>
-        <section class="item3"><img src="images/0115090559984_055_b.jpg" alt=""></section>
-        <section class="item7"><img src="images/5423471300027_000_b.jpg" alt=""></section>
-        <section class="item10"><img src="images/Vertically-striped-shirts.jpg" alt=""></section>
-        <section class="item6"><img src="images/coat-face-fashion-794063.jpg" alt=""></section>
-        <section class="item8"><img src="images/gettyimages-630310212_p.jpg" alt=""></section>
-        <section class="item9"><img src="images/maxresdefault.jpg" alt=""></section>
-        <section class="item11"><img src="images/6a32fdb06dc9afc80b236a57b0da107e.jpg" alt=""></section> 
-        <section class="item12"><img src="images/sunglasses-brands-v2-1551822483.gif" alt=""></section>
-        <section class="item14"><img src="images/90s2.jpg" alt="" ></section> 
-        <section class="item13"><img src="images/check-jacket.jpg" alt="" ></section>   
-        <section class="item15"><img src="images/katsiaryna-endruszkiewicz-704273-unsplash.jpg" alt=""></section>
-        <section class="item16"><img src="images/drew-roberts-345984-unsplash.jpg" alt=""></section>
-    </section>
-
+        <section class="item1">
+            <a rel="prettyPhoto[lookbook]" href="images/68a1fd0a2fe657a1752f7354791bed21.jpg">
+            <img src="images/68a1fd0a2fe657a1752f7354791bed21.jpg" alt=""></a>
+        </section>
+        <section class="item2">
+            <a rel="prettyPhoto[lookbook]" href="images/2003128-15-1.jpg">
+            <img src="images/2003128-15-1.jpg" alt=""></a>
+        </section>
+        <section class="item4">            
+            <a rel="prettyPhoto[lookbook]" href="images/accessories-adult-attractive-935952.jpg">
+            <img src="images/accessories-adult-attractive-935952.jpg" alt=""></a>
+        </section>
+        <section class="item5">            
+            <a rel="prettyPhoto[lookbook]" href="images/2001041020144026.jpg">
+            <img src="images/2001041020144026.jpg" alt=""></a>
+        </section>
+        <section class="item3">            
+            <a rel="prettyPhoto[lookbook]" href="images/0115090559984_055_b.jpg">
+            <img src="images/0115090559984_055_b.jpg" alt=""></a>
+        </section>
+        <section class="item7">            
+            <a rel="prettyPhoto[lookbook]" href="images/5423471300027_000_b.jpg">
+            <img src="images/5423471300027_000_b.jpg" alt=""></a>
+        </section>
+        <section class="item10">
+            <a rel="prettyPhoto[lookbook]" href="images/Vertically-striped-shirts.jpg">
+            <img src="images/Vertically-striped-shirts.jpg" alt=""></a>
+        </section>
+        <section class="item6">
+                <a rel="prettyPhoto[lookbook]" href="images/coat-face-fashion-794063.jpg">
+                <img src="images/coat-face-fashion-794063.jpg" alt=""></a>
+        </section>
+        <section class="item8">
+                <a rel="prettyPhoto[lookbook]" href="images/gettyimages-630310212_p.jpg">
+                <img src="images/gettyimages-630310212_p.jpg" alt=""></a>
+        </section>
+        <section class="item11">
+            <a rel="prettyPhoto[lookbook]" href="images/6a32fdb06dc9afc80b236a57b0da107e.jpg">
+            <img src="images/6a32fdb06dc9afc80b236a57b0da107e.jpg" alt=""></a>
+        </section> 
+        <section class="item9">
+                <a rel="prettyPhoto[lookbook]" href="images/maxresdefault.jpg">
+                <img src="images/maxresdefault.jpg" alt=""></a>
+        </section>
+        <section class="item17">
+            <a rel="prettyPhoto[lookbook]" href="images/high-waist-jeans.jpg">
+            <img src="images/high-waist-jeans.jpg" alt=""></a>
+        </section>
+        <section class="item18">
+            <a rel="prettyPhoto[lookbook]" href="images/graphic-tee.jpg">
+            <img src="images/graphic-tee.jpg" alt=""></a>
+        </section>
+        
+        <section class="item12">
+                <a rel="prettyPhoto[lookbook]" href="images/sunglasses-brands-v2-1551822483.gif">
+                <img src="images/sunglasses-brands-v2-1551822483.gif" alt=""></a>
+        </section>
+        <section class="item13">
+                <a rel="prettyPhoto[lookbook]" href="images/check-jacket.jpg">
+                <img src="images/check-jacket.jpg" alt="" ></a>
+        </section>   
+        <section class="item15">
+                <a rel="prettyPhoto[lookbook]" href="images/katsiaryna-endruszkiewicz-704273-unsplash.jpg">
+                <img src="images/katsiaryna-endruszkiewicz-704273-unsplash.jpg" alt=""></a>
+        </section>
+        <section class="item16">
+                <a rel="prettyPhoto[lookbook]" href="images/drew-roberts-345984-unsplash.jpg">
+                <img src="images/drew-roberts-345984-unsplash.jpg" alt=""></a>
+        </section>
+    </section>    
 
     <footer>
         <section class="footer-grid">
@@ -118,5 +171,14 @@
                 Copyright &copy; 2019 Created by Michelle Fortuin. All rights reserved.
                 </section>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+          $("a[rel^='prettyPhoto']").prettyPhoto({social_tools:''});
+        });
+    </script>
+    
 </body>
 </html>

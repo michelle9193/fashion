@@ -9,6 +9,7 @@ img {
     height: 100%;
     
 }
+
 .featured-product {
     display: grid;
     width: 71.875rem;
@@ -232,13 +233,11 @@ img {
     grid-row: span 4;
 }
 .item3,
+.item7,
 .item8 {
-    grid-row: span 4;
+    grid-row: span 1;
 }
 
-.item6 {
-    grid-row: span 3;
-}
 
 .item5 {
     grid-column: span 2;
@@ -254,8 +253,10 @@ img {
 
 }
 
+
 .item14 {
-    grid-column: span 3;
+    grid-column: span 2;
+    grid-row: span 1;
 
 }
 
