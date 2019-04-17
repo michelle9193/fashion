@@ -937,7 +937,7 @@ a {
 .header {
   width: 100%;
   height: 40.625rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/adults-black-and-white-casual-1374542.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/adults-black-and-white-casual-1374542.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
@@ -1103,7 +1103,7 @@ a {
 
 .denim-collection-content {
   height: 34.5rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/denim\ looks.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/denim\ looks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -1293,7 +1293,7 @@ a.extra-margin {
 .header2 {
   width: 100%;
   height: 27.8125rem;
-  background-image: url(images/seamless-pattern-in-cartoon-80s-90s-comic-style-vector-15514773.jpg);
+  background-image: url(../images/seamless-pattern-in-cartoon-80s-90s-comic-style-vector-15514773.jpg);
   background-attachment: fixed; }
 
 .heading2 {
