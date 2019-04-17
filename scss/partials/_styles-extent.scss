@@ -172,7 +172,25 @@
     width: 23.3125rem;
     height: 22.5rem;
     position: relative;
-    overflow: hidden;
+}
+
+.label {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    
+}
+
+.label-text {
+    background-color: #a88d7b;
+    font-size: 15px;
+    width: 60px;
+    text-align: center;
+    height: 25px;
+    border-radius: 7px;
+    color: white;
+    height: 25px;
+    padding-top: 3px;
 }
 
 // Name of feautrued products
@@ -205,15 +223,11 @@
 // Denim Collection container
 .denim-collection-content {
     height: 34.5rem;
-    background-image: url(/images/seamless-background-80s14-.jpg);
+    background-image:linear-gradient($color-shadow, $color-shadow), url(/images/denim\ looks.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top; 
     background-attachment: fixed;
-}
-
-// Left sectiton of denim collection
-.denim-looks-left-grid {
-    text-align: center;
-    margin: auto;
-    display: inline;
 }
 
 // Heading of denim collection
@@ -224,6 +238,7 @@
     text-align: center;
     color: $color-text-light;
     margin-bottom: 1.875rem;
+    margin-top: 100px;
 }
 
 // Description of denim collection heading
@@ -233,8 +248,7 @@
     letter-spacing: 0.0625rem;
     text-align: center;
     color: $color-text-light;
-    margin: 0 2.5rem 2.5rem 2.5rem;
-    width: auto
+    margin: 0 150px 2.5rem 150px;
 }
 
 // View More button
@@ -246,7 +260,17 @@
     background-color: #a88d7b;
     display: block;
     margin: auto;
+    font-size: 15px;
     border: none;
+    &:hover {
+        
+        border: 2
+        px solid $color-text-light;
+    }
+    a {
+        color: white;
+        
+    }
 } 
 
 // Right section of denim collection
@@ -305,6 +329,9 @@
     text-transform: uppercase;
     margin-bottom: 0.125rem;
     font-size: 0.8125rem;
+    a {
+        color: inherit;
+    }
 }
 
 .arrow-right {
@@ -353,7 +380,9 @@
 
 // Instagram pics
 .insta-pics {
-    height: 7.5rem;
+    section {
+        height: 4.9375rem;
+    }
 }
 
 // Copright section
@@ -883,7 +912,9 @@ a.client-name-dark {
 
 .cart {
     position: absolute;
-    right: 1rem;
+    display: none;
+    top: 8.9rem;
+    right: 0;
     width: 200px;
     padding: .7rem 1rem;
     background: $white;

@@ -2,7 +2,7 @@
 
 var shoppingCart = false;
 
-$("#basket").click(function() {
+$("#add-to-cart").click(function() {
     shoppingCart = !shoppingCart;
 
     if (shoppingCart) {

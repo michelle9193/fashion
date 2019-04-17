@@ -93,6 +93,11 @@ h4 {
   text-transform: uppercase;
   margin-bottom: 3.75rem; }
 
+img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%; }
+
 /* CONTACT PAGE 
 ======================================================================= */
 input {
@@ -1040,8 +1045,23 @@ a {
 .featured-product-clothing {
   width: 23.3125rem;
   height: 22.5rem;
-  position: relative;
-  overflow: hidden; }
+  position: relative; }
+
+.label {
+  position: absolute;
+  top: 8px;
+  right: 16px; }
+
+.label-text {
+  background-color: #a88d7b;
+  font-size: 15px;
+  width: 60px;
+  text-align: center;
+  height: 25px;
+  border-radius: 7px;
+  color: white;
+  height: 25px;
+  padding-top: 3px; }
 
 .title {
   margin-top: 1.25rem;
@@ -1083,13 +1103,11 @@ a {
 
 .denim-collection-content {
   height: 34.5rem;
-  background-image: url(/images/seamless-background-80s14-.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/denim\ looks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   background-attachment: fixed; }
-
-.denim-looks-left-grid {
-  text-align: center;
-  margin: auto;
-  display: inline; }
 
 .denim-looks {
   font-size: 3rem;
@@ -1097,7 +1115,8 @@ a {
   font-stretch: normal;
   text-align: center;
   color: #fff;
-  margin-bottom: 1.875rem; }
+  margin-bottom: 1.875rem;
+  margin-top: 100px; }
 
 .denim-paragraph {
   font-size: 0.9375rem;
@@ -1105,8 +1124,7 @@ a {
   letter-spacing: 0.0625rem;
   text-align: center;
   color: #fff;
-  margin: 0 2.5rem 2.5rem 2.5rem;
-  width: auto; }
+  margin: 0 150px 2.5rem 150px; }
 
 .view-more {
   color: #fff;
@@ -1116,7 +1134,12 @@ a {
   background-color: #a88d7b;
   display: block;
   margin: auto;
+  font-size: 15px;
   border: none; }
+  .view-more:hover {
+    border: 2 px solid #fff; }
+  .view-more a {
+    color: white; }
 
 .denim-looks-right-grid {
   padding-top: 0.625rem;
@@ -1171,6 +1194,9 @@ a {
   text-transform: uppercase;
   margin-bottom: 0.125rem;
   font-size: 0.8125rem; }
+  .arrow-text a,
+  .arrow-right a {
+    color: inherit; }
 
 .arrow-right {
   margin-left: 0.5rem; }
@@ -1204,8 +1230,8 @@ a {
   display: block;
   margin-bottom: 1.875rem; }
 
-.insta-pics {
-  height: 7.5rem; }
+.insta-pics section {
+  height: 4.9375rem; }
 
 .copyright {
   background-color: #d7d7d7;
@@ -1688,7 +1714,9 @@ a.client-name-dark {
 
 .cart {
   position: absolute;
-  right: 1rem;
+  display: none;
+  top: 8.9rem;
+  right: 0;
   width: 200px;
   padding: .7rem 1rem;
   background: #fff;
@@ -1850,7 +1878,8 @@ img {
 .denim-collection-content {
   display: grid;
   grid-gap: 1.25rem;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: " empty-grid-left denim-looks-left-grid empty-grid-right"; }
 
 .blog-article {
   display: grid;
@@ -1877,7 +1906,7 @@ img {
 .insta-pics {
   display: grid;
   grid-gap: 0.3125rem;
-  grid-template-columns: repeat(4, 3.125rem);
+  grid-template-columns: repeat(4, 50px);
   grid-template-areas: "insta-pics1 insta-pics2 insta-pics3 insta-pics4" "insta-pics5 insta-pics6 insta-pics7 insta-pics7"; }
 
 .copyright {
