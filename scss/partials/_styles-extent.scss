@@ -134,15 +134,14 @@
 
 .topbtn:hover {
     font-size: 1rem;
-    transition: .2s ease-out
-
+    transition: .4s ease-out;
+    border: 3px solid $color-text-light;
 }
 
 // Look Book text
 .look-book-btn {
     color: $color-text-light;
     text-transform: uppercase;
-    
 }
 
 // Arrow under look book btn
@@ -170,15 +169,28 @@
 // Clothing on feautured product
 .featured-product-clothing {
     width: 23.3125rem;
-    height: 22.5rem;
     position: relative;
 }
+
+.img-hover-zoom{
+    overflow: hidden;
+    height: 22.5rem;
+}
+        
+.img-hover-zoom img {
+    transition: transform .5s ease-in-out;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
+}
+
+
 
 .label {
     position: absolute;
     top: 8px;
     right: 16px;
-    
 }
 
 .label-text {
@@ -223,7 +235,7 @@
 // Denim Collection container
 .denim-collection-content {
     height: 34.5rem;
-    background-image:linear-gradient($color-shadow, $color-shadow), url(../images/denim\ looks.jpg);
+    background-image:linear-gradient($color-shadow, $color-shadow), url(../images/denim_looks.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top; 
@@ -263,9 +275,8 @@
     font-size: 15px;
     border: none;
     &:hover {
-        
-        border: 2
-        px solid $color-text-light;
+        border-radius: 10px;
+        transition: transform .4s ease-in-out;
     }
     a {
         color: white;
