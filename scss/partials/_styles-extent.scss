@@ -128,8 +128,7 @@
     background-color: #a88d7b;
     margin: auto;
     display: block;
-    border: none;
-    outline: none;
+    border: #a88d7b 1px solid;
 }
 
 .topbtn:hover {
@@ -184,8 +183,6 @@
 .img-hover-zoom:hover img {
     transform: scale(1.1);
 }
-
-
 
 .label {
     position: absolute;
@@ -273,16 +270,18 @@
     display: block;
     margin: auto;
     font-size: 15px;
-    border: none;
-    &:hover {
-        border-radius: 10px;
-        transition: transform .4s ease-in-out;
+    border: #a88d7b 1px solid;
+    }
+
+    .view-more:hover {
+        transition: .5s ease-out;
+        border: 5px solid #b3f3e2;
     }
     a {
         color: white;
         
     }
-} 
+ 
 
 // Right section of denim collection
 .denim-looks-right-grid {

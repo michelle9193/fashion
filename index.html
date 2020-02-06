@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="shortcut icon" href="nb_UtA_icon.ico"/>
 
 </head>
@@ -59,7 +61,7 @@
             <section class="featured-product-content">
                 <h2>Featured Product</h2>
                 <section class="featured-product">
-                    <div>
+                    <div><a href="shop.html">
                         <div class="featured-product-clothing img-hover-zoom">
                         <img src="images/drew-roberts-344778-unsplash.jpg" alt="">
                         </div>                           
@@ -67,9 +69,10 @@
                             <p class="title">Milano Striped Shirt</p>
                             <p class="price">R399</p>
                         </div>
+                        </a>
                     </div>
                     
-                    <div>
+                    <div><a href="shop.html">
                         <div class="featured-product-clothing img-hover-zoom">
                             <img src="images/2003128-15-1.jpg" alt=""><p class="label-text">NEW</p>
                         </div>                      
@@ -77,8 +80,9 @@
                             <p class="title">High Waisted Jeans</p>
                             <p class="price">R599</p>
                         </div>  
+                        </a>
                     </div>
-                    <div>
+                    <div><a href="shop.html">
                         <div class="featured-product-clothing img-hover-zoom">
                             <img src="images/0231434300414_030_b.jpg" alt="">
                         </div>  
@@ -86,6 +90,7 @@
                             <p class="title">Green Texture Knit Sweater</p>
                             <p class="price">R899</p>
                         </div>
+                    </a>
                     </div>           
                   
                 </section>
@@ -94,16 +99,24 @@
             <section class="new-collection-content">
                 <h2>New Collection</h2>
                     <section class="new-collection">
-                        <div>
-                        <section class="female-collection img-hover-zoom">
-                            <img src="images/casual-cute-elegant-428338.jpg" alt="">
-                            <p class="gender">WOMEN</p>
-                        </section>
-                    </div>
-                        <section class="male-collection img-hover-zoom">
-                            <img src="images/il_570xN.1552649945_bbsh.jpg" alt="">
-                            <p class="gender">MEN</p>
-                        </section>
+                        <div><a href="shop.html">
+                            <section class="female-collection img-hover-zoom">
+                                <img src="images/casual-cute-elegant-428338.jpg" alt="">
+                            </section>
+                            <div>
+                                <p class="gender">WOMEN</p>
+                            </div>
+                        </a>
+                        </div>
+                        <div><a href="shop.html">
+                            <section class="male-collection img-hover-zoom">
+                                <img src="images/il_570xN.1552649945_bbsh.jpg" alt="">
+                            </section>
+                            <div></div>
+                                <p class="gender">MEN</p>
+                            </div>
+                        </a>
+                        </div>
                     </section> 
             </section>
 
@@ -122,18 +135,18 @@
             <section class="blog-article-content">
                 <h2>Our Blog</h2>
                 <section class="blog-article">
-                    <section class="blog-pic"><img src="images/cross-body-1024x753.jpg" alt=""></section>
+                    <section class="blog-pic" data-aos="fade-up" data-aos-duration="3000"><img src="images/cross-body-1024x753.jpg" alt=""></section>
                     <article class="blog-content">
                         <h5 class="blog-title">Moon Bags Are Really Back on Fashion</h5>
                             <p class="date">March 8, 2019</p>
                             <p class="blog-description">A little while ago, I gingerly tested out the fashion-waters and started wearing a moon-bag/fanny-pack on the odd occasion. After I was convinced that this accessory was one of the best things to come out of 2017, I wrote an article on how brilliant and functional they are. Which is totally the best thing about them. Well that, and also how they’re super stylish and have been seen on many people including models such as Kylie Jenner, Bella Hadid and Adwoa Aboah. </p>
                             <p class="blog-description">
                             Maybe the celebs are so drawn to this bag because they can use both hands to fan off the paps. While Mel C chose to use hers more as a belt (still needing an extra handbag?!), Anne Hathaway opted for a leopard-print option, and Fergie went with the classic Chanel quilted bag worn around her waist..</p>
-                            <p class="arrow-text">
+                            <div class="arrow-text">
                                 <a href="blog.html">Read More <span class="arrow-right">
                                     <i class="fas fa-arrow-right"></i></span>
                                 </a>
-                            </p>
+                            </div>
                     </article>
                 </section>
             </section>
@@ -171,6 +184,7 @@
             </section>
             <section class="footer-instagram-section">
                 <h4>Instagram</h4>
+                <a href="instagram.com" target="_blank">
                 <section class="insta-pics">
                     <section class="insta-pic1"><img src="images/drew-roberts-344778-unsplash.jpg" alt=""></section>
                     <section class="insta-pic2"><img src="images/f00f1ab4948a4a15eaf60c2c010fc324.jpg" alt=""></section>
@@ -181,6 +195,7 @@
                     <section class="insta-pic7"><img src="images/image_e3a2cd3a-051f-46fb-a111-fa87e707234a_1024x1024.jpg" alt=""></section>
                     <section class="insta-pic8"><img src="images/joshua-rawson-harris-769398-unsplash.jpg" alt=""></section>
                 </section>
+            </a>
             </section>
         </section>
         
@@ -198,5 +213,9 @@
     
     <script src="js/back-to-top-btn.js"></script>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

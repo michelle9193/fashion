@@ -1218,8 +1218,7 @@ a {
   background-color: #a88d7b;
   margin: auto;
   display: block;
-  border: none;
-  outline: none;
+  border: #a88d7b 1px solid;
 }
 
 .topbtn:hover {
@@ -1331,7 +1330,7 @@ a {
   text-align: center;
   font-family: "Source Sans Pro";
   font-size: 0.9375rem;
-  line-height: 1.92;
+  line-height: 3;
   letter-spacing: 0.1563rem;
   margin-top: 0.625rem;
 }
@@ -1373,13 +1372,15 @@ a {
   display: block;
   margin: auto;
   font-size: 15px;
-  border: none;
+  border: #a88d7b 1px solid;
 }
+
 .view-more:hover {
-  border-radius: 10px;
-  transition: transform 0.4s ease-in-out;
+  transition: 0.5s ease-out;
+  border: 5px solid #b3f3e2;
 }
-.view-more a {
+
+a {
   color: white;
 }
 
