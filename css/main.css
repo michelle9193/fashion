@@ -1377,7 +1377,7 @@ a {
 
 .view-more:hover {
   transition: 0.5s ease-out;
-  border: 5px solid #b3f3e2;
+  border: 5px solid #fff;
 }
 
 a {
